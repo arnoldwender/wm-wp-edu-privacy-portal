@@ -1,0 +1,1047 @@
+# Translation of wm-edu-privacy-portal in sv_SE
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-edu-privacy-portal 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-edu-privacy-"
+"portal\n"
+"POT-Creation-Date: 2026-11-25T00:05:41+00:00\n"
+"PO-Revision-Date: 2026-11-16 23:30+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-edu-privacy-"
+"portal/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-edu-privacy-"
+"portal/issues>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-edu-privacy-portal\n"
+
+#. Plugin Name of the plugin
+#: wm-edu-privacy-portal.php
+msgid "WM Edu Privacy Portal"
+msgstr "WM Edu Privacy Portal"
+
+#. Plugin URI of the plugin
+#: wm-edu-privacy-portal.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-edu-privacy-portal/"
+msgstr ""
+
+#. Description of the plugin
+#: wm-edu-privacy-portal.php
+msgid ""
+"Ersetzt Datumsangaben, Klassenbezeichnungen und übergebene Schülernamen "
+"durch Platzhalter, bevor Text die Website verlässt, und prüft Eltern-"
+"Einwilligungen gegen ein hash-verkettetes Register."
+msgstr ""
+"Ersätter datum, klassbeteckningar och angivna elevnamn med platshållare "
+"innan text lämnar webbplatsen, och kontrollerar vårdnadshavares samtycken "
+"mot ett hash-kedjat register."
+
+#. Author of the plugin
+#: wm-edu-privacy-portal.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-edu-privacy-portal.php
+msgid "https://arnoldwender.com"
+msgstr ""
+
+#: includes/class-edu-access.php:96
+msgid ""
+"Diese Route setzt eine Anmeldung voraus. Cookie-Anmeldungen benötigen "
+"zusätzlich den REST-Nonce X-WP-Nonce."
+msgstr ""
+"Denna rutt kräver inloggning. Cookie-inloggningar kräver dessutom REST-"
+"noncen X-WP-Nonce."
+
+#: includes/class-edu-access.php:99
+msgid "Für diese Route fehlt die Berechtigung."
+msgstr "Behörighet saknas för denna rutt."
+
+#: includes/class-edu-admin.php:60 includes/class-edu-admin.php:389
+msgid "Einwilligungen"
+msgstr "Samtycken"
+
+#: includes/class-edu-admin.php:61
+msgid "Übersicht"
+msgstr "Översikt"
+
+#: includes/class-edu-admin.php:62 includes/class-edu-admin.php:455
+msgid "Erfassen"
+msgstr "Registrera"
+
+#: includes/class-edu-admin.php:63 includes/class-edu-admin.php:503
+msgid "Einwilligungsarten"
+msgstr "Samtyckestyper"
+
+#: includes/class-edu-admin.php:64 includes/class-edu-admin.php:537
+msgid "Erziehungsberechtigte"
+msgstr "Vårdnadshavare"
+
+#: includes/class-edu-admin.php:65 includes/class-edu-admin.php:580
+msgid "Einstellungen"
+msgstr "Inställningar"
+
+#: includes/class-edu-admin.php:244
+msgid "Sie haben keine Berechtigung für diese Aktion."
+msgstr "Du saknar behörighet för denna åtgärd."
+
+#: includes/class-edu-admin.php:314
+msgid "Die Einwilligung wurde erfasst."
+msgstr "Samtycket har registrerats."
+
+#: includes/class-edu-admin.php:315
+msgid "Der Widerruf wurde erfasst."
+msgstr "Återkallelsen har registrerats."
+
+#: includes/class-edu-admin.php:316
+msgid "Die Einwilligungsart wurde angelegt."
+msgstr "Samtyckestypen har skapats."
+
+#: includes/class-edu-admin.php:317
+msgid "Die Einwilligungsart wurde gespeichert."
+msgstr "Samtyckestypen har sparats."
+
+#: includes/class-edu-admin.php:318
+msgid "Die Zuordnung wurde gespeichert."
+msgstr "Kopplingen har sparats."
+
+#: includes/class-edu-admin.php:319
+msgid "Die Zuordnung wurde entfernt."
+msgstr "Kopplingen har tagits bort."
+
+#: includes/class-edu-admin.php:320
+msgid "Die Zuordnungen wurden übernommen."
+msgstr "Kopplingarna har importerats."
+
+#: includes/class-edu-admin.php:321
+msgid "Die Einstellungen wurden gespeichert."
+msgstr "Inställningarna har sparats."
+
+#: includes/class-edu-admin.php:324
+msgid ""
+"Die Angaben sind unvollständig: Schüler-ID, E-Mail-Adresse, Art, Status und "
+"Begründung werden benötigt."
+msgstr ""
+"Uppgifterna är ofullständiga: elev-ID, e-postadress, typ, status och "
+"motivering krävs."
+
+#: includes/class-edu-admin.php:325
+msgid ""
+"Für diese Schüler-ID und Art gibt es keinen Eintrag, der widerrufen werden "
+"könnte."
+msgstr ""
+"Det finns ingen post för detta elev-ID och denna typ som kan återkallas."
+
+#: includes/class-edu-admin.php:326
+msgid "Diese Einwilligungsart gibt es nicht."
+msgstr "Denna samtyckestyp finns inte."
+
+#: includes/class-edu-admin.php:327
+msgid "Dieser Status ist nicht zulässig."
+msgstr "Denna status är inte tillåten."
+
+#: includes/class-edu-admin.php:328
+msgid "Diese Kennung ist bereits vergeben."
+msgstr "Denna kod används redan."
+
+#: includes/class-edu-admin.php:329
+msgid ""
+"Kennung, Bezeichnung und Wortlaut werden benötigt; die Kennung besteht aus "
+"Großbuchstaben, Ziffern, \"_\" und \"-\"."
+msgstr ""
+"Kod, benämning och ordalydelse krävs; koden består av versaler, siffror, "
+"\"_\" och \"-\"."
+
+#: includes/class-edu-admin.php:330
+msgid "Diese Zuordnung gibt es bereits."
+msgstr "Denna koppling finns redan."
+
+#: includes/class-edu-admin.php:331
+msgid "Schüler-ID oder E-Mail-Adresse sind nicht gültig."
+msgstr "Elev-ID eller e-postadress är ogiltig."
+
+#: includes/class-edu-admin.php:332
+msgid "Diese Zuordnung gibt es nicht."
+msgstr "Denna koppling finns inte."
+
+#: includes/class-edu-admin.php:333
+msgid "Einige Zeilen konnten nicht gelesen werden; der Rest wurde übernommen."
+msgstr "Vissa rader kunde inte läsas; resten importerades."
+
+#: includes/class-edu-admin.php:334
+msgid "Es wurde keine Zuordnung übernommen."
+msgstr "Ingen koppling importerades."
+
+#: includes/class-edu-admin.php:335
+msgid "Das Register war gesperrt. Bitte in einigen Minuten erneut versuchen."
+msgstr "Registret var låst. Försök igen om några minuter."
+
+#: includes/class-edu-admin.php:336
+msgid "Die Einwilligungstabelle fehlt."
+msgstr "Samtyckestabellen saknas."
+
+#: includes/class-edu-admin.php:337
+msgid "Der Eintrag konnte nicht gespeichert werden."
+msgstr "Posten kunde inte sparas."
+
+#. translators: 1: rows verified, 2: schema-1 rows among them.
+#: includes/class-edu-admin.php:355
+#, php-format
+msgid "Signaturkette geprüft: %1$d Einträge, davon %2$d aus Schema 1."
+msgstr "Signaturkedja verifierad: %1$d poster, varav %2$d från schema 1."
+
+#: includes/class-edu-admin.php:362
+msgid "Das Register ist nicht prüfbar:"
+msgstr "Registret kan inte verifieras:"
+
+#: includes/class-edu-admin.php:363
+msgid "Solange das so ist, zeigt die Abfrage im Portal keine Einwilligung an."
+msgstr "Så länge detta gäller visar sökningen i portalen inget samtycke."
+
+#: includes/class-edu-admin.php:368 includes/class-edu-consent-requests.php:304
+msgid "erteilt"
+msgstr "beviljat"
+
+#: includes/class-edu-admin.php:369
+msgid "widerrufen"
+msgstr "återkallat"
+
+#: includes/class-edu-admin.php:370 includes/class-edu-consent-requests.php:304
+msgid "verweigert"
+msgstr "nekat"
+
+#: includes/class-edu-admin.php:377
+msgid "Bestätigung der Erziehungsberechtigten"
+msgstr "Bekräftelse från vårdnadshavare"
+
+#: includes/class-edu-admin.php:378
+msgid "Widerrufslink"
+msgstr "Återkallelselänk"
+
+#: includes/class-edu-admin.php:379
+msgid "Erfassung im Backend"
+msgstr "Registrering i admin"
+
+#: includes/class-edu-admin.php:380
+msgid "Widerruf im Backend"
+msgstr "Återkallelse i admin"
+
+#: includes/class-edu-admin.php:381
+msgid "Programmaufruf"
+msgstr "Programanrop"
+
+#: includes/class-edu-admin.php:383
+msgid "unbekannt (Schema 2)"
+msgstr "okänd (schema 2)"
+
+#: includes/class-edu-admin.php:394 includes/class-edu-admin.php:420
+#: includes/class-edu-admin.php:459 includes/class-edu-admin.php:482
+#: includes/class-edu-admin.php:542 includes/class-edu-admin.php:563
+#: includes/class-edu-consent-form.php:314
+msgid "Schüler-ID"
+msgstr "Elev-ID"
+
+#: includes/class-edu-admin.php:396
+msgid "Verlauf anzeigen"
+msgstr "Visa historik"
+
+#: includes/class-edu-admin.php:398
+msgid "Register als CSV exportieren"
+msgstr "Exportera register som CSV"
+
+#: includes/class-edu-admin.php:402
+msgid "Aktueller Stand je Schüler-ID und Art"
+msgstr "Aktuell status per elev-ID och typ"
+
+#. translators: %s: pupil ID.
+#: includes/class-edu-admin.php:404
+#, php-format
+msgid "Verlauf für %s"
+msgstr "Historik för %s"
+
+#: includes/class-edu-admin.php:415
+msgid "Keine Einträge."
+msgstr "Inga poster."
+
+#: includes/class-edu-admin.php:419
+msgid "Zeit (UTC)"
+msgstr "Tid (UTC)"
+
+#: includes/class-edu-admin.php:421
+msgid "Art"
+msgstr "Typ"
+
+#: includes/class-edu-admin.php:422 includes/class-edu-admin.php:466
+msgid "Status"
+msgstr "Status"
+
+#: includes/class-edu-admin.php:423
+msgid "E-Mail"
+msgstr "E-post"
+
+#: includes/class-edu-admin.php:424
+msgid "Herkunft"
+msgstr "Källa"
+
+#: includes/class-edu-admin.php:425 includes/class-edu-admin.php:471
+#: includes/class-edu-admin.php:488
+msgid "Begründung"
+msgstr "Motivering"
+
+#: includes/class-edu-admin.php:426 includes/class-edu-admin.php:529
+msgid "Wortlaut"
+msgstr "Ordalydelse"
+
+#: includes/class-edu-admin.php:439
+msgid "aktueller Wortlaut"
+msgstr "aktuell ordalydelse"
+
+#: includes/class-edu-admin.php:439
+msgid "seit der Erteilung geändert"
+msgstr "ändrad sedan beviljandet"
+
+#: includes/class-edu-admin.php:444
+msgid "Widerrufen und Nacherfassen: über die Seite „Erfassen“."
+msgstr "Återkalla och efterregistrera: via sidan ”Registrera”."
+
+#: includes/class-edu-admin.php:449
+msgid "Einwilligung erfassen oder widerrufen"
+msgstr "Registrera eller återkalla samtycke"
+
+#: includes/class-edu-admin.php:452
+msgid ""
+"Für Fälle außerhalb des Formulars: eine auf Papier erteilte Einwilligung "
+"nachtragen oder einen telefonisch erklärten Widerruf erfassen. Jeder Eintrag "
+"wird mit Ihrem Benutzerkonto und Ihrer Begründung signiert."
+msgstr ""
+"För fall utanför webbformuläret: efterregistrera ett papperssamtycke eller "
+"registrera en telefonåterkallelse. Varje post signeras med ditt konto och "
+"din motivering."
+
+#: includes/class-edu-admin.php:460
+msgid "E-Mail-Adresse der Erziehungsberechtigten"
+msgstr "Vårdnadshavares e-postadress"
+
+#: includes/class-edu-admin.php:461 includes/class-edu-admin.php:483
+msgid "Einwilligungsart"
+msgstr "Samtyckestyp"
+
+#: includes/class-edu-admin.php:472
+msgid ""
+"Woher der Eintrag stammt, zum Beispiel: unterschriebenes Formular vom "
+"12.09.2026, im Sekretariat abgelegt."
+msgstr ""
+"Varifrån posten kommer, t.ex. undertecknad blankett från 12.09.2026 på "
+"expeditionen."
+
+#: includes/class-edu-admin.php:474
+msgid "Eintrag erfassen"
+msgstr "Spara post"
+
+#: includes/class-edu-admin.php:477
+msgid "Widerrufen"
+msgstr "Återkalla"
+
+#: includes/class-edu-admin.php:478
+msgid ""
+"Trägt einen Widerruf für den letzten Eintrag dieser Schüler-ID und Art ein; "
+"E-Mail-Adresse und Wortlaut werden aus diesem Eintrag übernommen."
+msgstr ""
+"Registrerar en återkallelse för den senaste posten för detta elev-ID och "
+"denna typ; e-post och ordalydelse hämtas därifrån."
+
+#: includes/class-edu-admin.php:490
+msgid "Widerruf erfassen"
+msgstr "Spara återkallelse"
+
+#: includes/class-edu-admin.php:505
+msgid ""
+"Der Wortlaut ist das, wozu die Erziehungsberechtigten einwilligen; sein "
+"SHA-256 wird mit jeder Einwilligung gespeichert. Ein geänderter Wortlaut "
+"gilt für neue Anfragen; frühere Einträge behalten ihren. Arten werden nicht "
+"gelöscht, sondern deaktiviert."
+msgstr ""
+"Ordalydelsen är det vårdnadshavarna samtycker till; dess SHA-256 sparas med "
+"varje post. Ändrad text gäller nya förfrågningar medan äldre behåller sin. "
+"Typer inaktiveras men raderas aldrig."
+
+#: includes/class-edu-admin.php:507 includes/class-edu-admin.php:527
+msgid "Bezeichnung"
+msgstr "Benämning"
+
+#: includes/class-edu-admin.php:507 includes/class-edu-admin.php:522
+#: includes/class-edu-admin.php:525
+msgid "Kennung"
+msgstr "Kod"
+
+#: includes/class-edu-admin.php:507 includes/class-edu-admin.php:530
+msgid "Aktiv"
+msgstr "Aktiv"
+
+#: includes/class-edu-admin.php:507
+msgid "Wortlaut-Hash"
+msgstr "Text-hash"
+
+#: includes/class-edu-admin.php:507 includes/class-edu-admin.php:512
+msgid "Bearbeiten"
+msgstr "Redigera"
+
+#: includes/class-edu-admin.php:510
+msgid "ja"
+msgstr "ja"
+
+#: includes/class-edu-admin.php:510
+msgid "nein"
+msgstr "nej"
+
+#: includes/class-edu-admin.php:516
+msgid "Neue Einwilligungsart"
+msgstr "Ny samtyckestyp"
+
+#: includes/class-edu-admin.php:516
+msgid "Einwilligungsart bearbeiten"
+msgstr "Redigera samtyckestyp"
+
+#: includes/class-edu-admin.php:523
+msgid ""
+"Wird im Register gespeichert und kann später nicht geändert werden, zum "
+"Beispiel FAHRT_2026."
+msgstr "Sparas i registret och kan inte ändras senare, t.ex. FAHRT_2026."
+
+#: includes/class-edu-admin.php:528
+msgid "Beschreibung"
+msgstr "Beskrivning"
+
+#: includes/class-edu-admin.php:530
+msgid "Im Formular für Erziehungsberechtigte anbieten"
+msgstr "Erbjud i formuläret för vårdnadshavare"
+
+#: includes/class-edu-admin.php:532
+msgid "Anlegen"
+msgstr "Skapa"
+
+#: includes/class-edu-admin.php:532
+msgid "Speichern"
+msgstr "Spara"
+
+#: includes/class-edu-admin.php:539
+msgid ""
+"Das Formular schickt nur dann einen Bestätigungslink, wenn Schüler-ID und E-"
+"Mail-Adresse hier zusammen hinterlegt sind. Gespeichert wird die Adresse "
+"nicht im Klartext, sondern als HMAC; sie lässt sich prüfen, aber nicht "
+"auslesen. Deshalb zeigt die Liste nur die Anzahl der Adressen je Schüler-ID."
+msgstr ""
+"Formuläret skickar en bekräftelselänk endast när elev-ID och e-postadress "
+"finns registrerade tillsammans här. Adressen lagras som HMAC och kan inte "
+"läsas i klartext; listan visar bara antalet adresser per elev-ID."
+
+#: includes/class-edu-admin.php:542
+msgid "Hinterlegte Adressen"
+msgstr "Registrerade adresser"
+
+#: includes/class-edu-admin.php:547
+msgid "Keine Zuordnungen hinterlegt."
+msgstr "Inga kopplingar registrerade."
+
+#: includes/class-edu-admin.php:551
+msgid "Zuordnungen hinzufügen"
+msgstr "Lägg till kopplingar"
+
+#: includes/class-edu-admin.php:554
+msgid ""
+"Eine Zuordnung je Zeile: Schüler-ID und E-Mail-Adresse, getrennt durch "
+"Semikolon, Komma oder Tabulator."
+msgstr ""
+"En koppling per rad: elev-ID och e-postadress separerade med semikolon, "
+"komma eller tabb."
+
+#: includes/class-edu-admin.php:556
+msgid "Zuordnungen übernehmen"
+msgstr "Importera kopplingar"
+
+#: includes/class-edu-admin.php:559 includes/class-edu-admin.php:566
+msgid "Zuordnung entfernen"
+msgstr "Ta bort koppling"
+
+#: includes/class-edu-admin.php:564 includes/class-edu-consent-form.php:317
+msgid "E-Mail-Adresse"
+msgstr "E-postadress"
+
+#: includes/class-edu-admin.php:572
+msgid "Alle Adressen einer Schüler-ID entfernen"
+msgstr "Ta bort alla adresser för ett elev-ID"
+
+#: includes/class-edu-admin.php:574
+msgid "Alle Adressen entfernen"
+msgstr "Ta bort alla adresser"
+
+#: includes/class-edu-admin.php:584
+msgid "Zugang"
+msgstr "Åtkomst"
+
+#: includes/class-edu-admin.php:585
+msgid "Abfrage im Portal"
+msgstr "Sökning i portalen"
+
+#: includes/class-edu-admin.php:586
+msgid ""
+"Öffentlich zugänglich machen (wie vor Version mit Zugriffsschutz). Dann kann "
+"jede Person mit einer Schüler-ID erfahren, ob eine Einwilligung vorliegt."
+msgstr ""
+"Gör offentligt tillgänglig (som före åtkomstskydd). Alla med ett elev-ID kan "
+"då se om samtycke finns."
+
+#: includes/class-edu-admin.php:587 includes/class-edu-shortcodes.php:68
+#: includes/class-edu-shortcodes.php:74
+msgid "Pseudonymisierung"
+msgstr "Pseudonymisering"
+
+#: includes/class-edu-admin.php:588
+msgid ""
+"REST-Routen und Demo öffentlich zugänglich machen. Dann kann jede Person das "
+"Token eines geratenen Namens oder Datums berechnen."
+msgstr ""
+"Gör REST-rutter och demo offentligt tillgängliga. Alla kan då beräkna token "
+"för ett gissat namn eller datum."
+
+#: includes/class-edu-admin.php:589
+msgid "Rollen für die Abfrage"
+msgstr "Roller för sökningen"
+
+#: includes/class-edu-admin.php:593
+msgid "Zusätzlich zu Benutzern mit der Berechtigung „manage_edu_consents“."
+msgstr "Utöver användare med behörigheten ”manage_edu_consents”."
+
+#: includes/class-edu-admin.php:596
+msgid "Formular für Erziehungsberechtigte"
+msgstr "Formulär för vårdnadshavare"
+
+#: includes/class-edu-admin.php:597
+msgid "Gültigkeit des Bestätigungslinks (Stunden)"
+msgstr "Bekräftelselänkens giltighetstid (timmar)"
+
+#: includes/class-edu-admin.php:598
+msgid "Anfragedaten löschen (Tage nach Ablauf)"
+msgstr "Radera förfrågningsdata (dagar efter utgång)"
+
+#: includes/class-edu-admin.php:599
+msgid "Anfragen je IP und Stunde"
+msgstr "Förfrågningar per IP och timme"
+
+#: includes/class-edu-admin.php:600
+msgid "Anfragen je E-Mail-Adresse und Stunde"
+msgstr "Förfrågningar per e-postadress och timme"
+
+#: includes/class-edu-admin.php:602
+msgid ""
+"Erfasste Einwilligungen werden im laufenden Betrieb nie gelöscht; die "
+"Aufbewahrungsfrist gilt nur für Anfragen, die nicht bestätigt wurden, und "
+"für abgeschlossene Widerrufslinks."
+msgstr ""
+"Registrerade samtycken raderas aldrig under drift; lagringstiden gäller "
+"endast obekräftade förfrågningar och avslutade återkallelselänkar."
+
+#: includes/class-edu-admin.php:604
+msgid "Deinstallation"
+msgstr "Avinstallation"
+
+#: includes/class-edu-admin.php:605
+msgid "Daten bei Deinstallation löschen"
+msgstr "Radera data vid avinstallation"
+
+#: includes/class-edu-admin.php:606
+msgid ""
+"Alle Einstellungen, Zuordnungen, Einwilligungsarten und das "
+"Einwilligungsregister beim Löschen des Plugins endgültig entfernen "
+"(Standard: deaktiviert — alle Daten bleiben erhalten)."
+msgstr ""
+"Ta permanent bort alla inställningar, kopplingar, samtyckestyper och "
+"samtyckesregistret när tillägget raderas (standard: inaktiverat — alla data "
+"bevaras)."
+
+#: includes/class-edu-consent-form.php:156
+msgid ""
+"Bitte geben Sie die Schüler-ID an, die Sie von der Schule erhalten haben "
+"(höchstens 64 Zeichen)."
+msgstr "Ange det elev-ID du fått av skolan (högst 64 tecken)."
+
+#: includes/class-edu-consent-form.php:159
+msgid "Bitte geben Sie eine gültige E-Mail-Adresse an."
+msgstr "Ange en giltig e-postadress."
+
+#: includes/class-edu-consent-form.php:175
+msgid ""
+"Bitte wählen Sie für mindestens eine Einwilligung „erteilen“ oder "
+"„verweigern“."
+msgstr "Välj ”bevilja” eller ”neka” för minst ett samtycke."
+
+#: includes/class-edu-consent-form.php:178
+msgid ""
+"Bitte bestätigen Sie, dass Sie den Wortlaut der gewählten Einwilligungen "
+"gelesen haben."
+msgstr "Bekräfta att du har läst ordalydelsen för de valda samtyckena."
+
+#: includes/class-edu-consent-form.php:246
+msgid ""
+"Es wurden in kurzer Zeit zu viele Anfragen gesendet. Bitte versuchen Sie es "
+"in einer Stunde erneut."
+msgstr ""
+"För många förfrågningar har skickats på kort tid. Försök igen om en timme."
+
+#: includes/class-edu-consent-form.php:247
+msgid ""
+"Ihre Angaben konnten gerade nicht gespeichert werden. Bitte versuchen Sie es "
+"in einigen Minuten erneut; der Link bleibt gültig."
+msgstr ""
+"Dina uppgifter kunde inte sparas just nu. Försök igen om några minuter; "
+"länken förblir giltig."
+
+#: includes/class-edu-consent-form.php:248
+#: includes/class-edu-consent-form.php:352
+#: includes/class-edu-consent-form.php:378
+msgid "Dieser Link ist ungültig, abgelaufen oder wurde bereits verwendet."
+msgstr "Denna länk är ogiltig, har gått ut eller har redan använts."
+
+#: includes/class-edu-consent-form.php:249
+msgid ""
+"Ihre Angaben konnten nicht gespeichert werden. Bitte wenden Sie sich an die "
+"Schule."
+msgstr "Dina uppgifter kunde inte sparas. Kontakta skolan."
+
+#: includes/class-edu-consent-form.php:250
+msgid "Bitte bestätigen Sie, dass Sie den Wortlaut gelesen haben."
+msgstr "Bekräfta att du har läst ordalydelsen."
+
+#: includes/class-edu-consent-form.php:261
+msgid ""
+"Vielen Dank. Wenn die Schüler-ID und die E-Mail-Adresse zu den Angaben der "
+"Schule passen, erhalten Sie in Kürze eine E-Mail mit einem Bestätigungslink. "
+"Erst mit der Bestätigung wird Ihre Entscheidung erfasst."
+msgstr ""
+"Tack. Om elev-ID och e-postadress stämmer med skolans uppgifter får du strax "
+"ett mejl med en bekräftelselänk. Ditt beslut registreras först när du "
+"bekräftar."
+
+#: includes/class-edu-consent-form.php:262
+msgid ""
+"Ihre Angaben wurden erfasst. Sie erhalten eine Bestätigung per E-Mail; "
+"erteilte Einwilligungen können Sie über den Link darin jederzeit widerrufen."
+msgstr ""
+"Dina uppgifter har registrerats. Du får en bekräftelse via e-post; beviljade "
+"samtycken kan när som helst återkallas via länken i mejlet."
+
+#: includes/class-edu-consent-form.php:263
+msgid "Ihr Widerruf wurde erfasst. Sie erhalten eine Bestätigung per E-Mail."
+msgstr "Din återkallelse har registrerats. Du får en bekräftelse via e-post."
+
+#: includes/class-edu-consent-form.php:265
+msgid "Einwilligungen der Erziehungsberechtigten"
+msgstr "Vårdnadshavares samtycken"
+
+#: includes/class-edu-consent-form.php:277
+msgid "Wortlaut der Einwilligung"
+msgstr "Samtyckets ordalydelse"
+
+#: includes/class-edu-consent-form.php:290
+msgid "Einwilligungen erteilen oder verweigern"
+msgstr "Bevilja eller neka samtycken"
+
+#: includes/class-edu-consent-form.php:292
+msgid ""
+"Derzeit können über dieses Formular keine Einwilligungen erteilt werden."
+msgstr "För närvarande kan inga samtycken lämnas via detta formulär."
+
+#: includes/class-edu-consent-form.php:294
+msgid ""
+"Geben Sie die Schüler-ID an, die Sie von der Schule erhalten haben, und die "
+"E-Mail-Adresse, die die Schule von Ihnen kennt. Sie erhalten eine E-Mail mit "
+"einem Bestätigungslink; erst mit der Bestätigung wird Ihre Entscheidung "
+"erfasst."
+msgstr ""
+"Ange elev-ID från skolan och den e-postadress som skolan har registrerat. Du "
+"får ett mejl med en bekräftelselänk; beslutet sparas först efter bekräftelse."
+
+#: includes/class-edu-consent-form.php:305
+msgid "Bitte prüfen Sie Ihre Angaben:"
+msgstr "Kontrollera dina uppgifter:"
+
+#: includes/class-edu-consent-form.php:321
+msgid "Ihre Entscheidungen"
+msgstr "Dina val"
+
+#: includes/class-edu-consent-form.php:333
+#: includes/class-edu-consent-form.php:363
+msgid "Einwilligung erteilen"
+msgstr "Bevilja samtycke"
+
+#: includes/class-edu-consent-form.php:334
+#: includes/class-edu-consent-form.php:363
+msgid "Einwilligung verweigern"
+msgstr "Neka samtycke"
+
+#: includes/class-edu-consent-form.php:339
+msgid "Ich habe den Wortlaut der gewählten Einwilligungen gelesen."
+msgstr "Jag har läst ordalydelsen för de valda samtyckena."
+
+#: includes/class-edu-consent-form.php:343
+msgid "Website"
+msgstr "Webbplats"
+
+#: includes/class-edu-consent-form.php:344
+msgid "Angaben absenden"
+msgstr "Skicka uppgifter"
+
+#: includes/class-edu-consent-form.php:350
+#: includes/class-edu-consent-form.php:369
+msgid "Angaben bestätigen"
+msgstr "Bekräfta uppgifter"
+
+#. translators: %s: pupil ID.
+#: includes/class-edu-consent-form.php:357
+#, php-format
+msgid ""
+"Für die Schüler-ID %s wurden folgende Angaben gemacht. Mit Ihrer Bestätigung "
+"werden sie im Einwilligungsregister der Schule erfasst."
+msgstr ""
+"För elev-ID %s har följande val lämnats. Med din bekräftelse registreras de "
+"i skolans samtyckesregister."
+
+#: includes/class-edu-consent-form.php:368
+msgid "Ich habe den Wortlaut gelesen und bestätige diese Angaben."
+msgstr "Jag har läst ordalydelsen och bekräftar dessa uppgifter."
+
+#: includes/class-edu-consent-form.php:375
+#: includes/class-edu-consent-form.php:393
+msgid "Einwilligungen widerrufen"
+msgstr "Återkalla samtycken"
+
+#. translators: %s: pupil ID.
+#: includes/class-edu-consent-form.php:383
+#, php-format
+msgid ""
+"Für die Schüler-ID %s können Sie folgende erteilte Einwilligungen "
+"widerrufen. Der Widerruf wird im Einwilligungsregister der Schule erfasst."
+msgstr ""
+"För elev-ID %s kan du återkalla följande beviljade samtycken. Återkallelsen "
+"sparas i skolans register."
+
+#: includes/class-edu-consent-requests.php:178
+msgid "erteilen"
+msgstr "bevilja"
+
+#: includes/class-edu-consent-requests.php:178
+msgid "verweigern"
+msgstr "neka"
+
+#. translators: 1: site name, 2: pupil ID, 3: list of decisions, 4: validity in hours, 5: confirmation link.
+#: includes/class-edu-consent-requests.php:182
+#, php-format
+msgid ""
+"Guten Tag,\n"
+"\n"
+"über das Einwilligungsformular von %1$s wurden für die Schüler-ID %2$s "
+"folgende Angaben gemacht:\n"
+"\n"
+"%3$s\n"
+"\n"
+"Erfasst werden diese Angaben erst, wenn Sie sie über den folgenden Link "
+"bestätigen. Der Link ist %4$d Stunden gültig und kann einmal verwendet "
+"werden:\n"
+"\n"
+"%5$s\n"
+"\n"
+"Wenn Sie diese Angaben nicht gemacht haben, müssen Sie nichts tun: Ohne "
+"Bestätigung wird nichts erfasst."
+msgstr ""
+"Hej,\n"
+"\n"
+"via samtyckesformuläret på %1$s har följande uppgifter lämnats för elev-ID "
+"%2$s:\n"
+"\n"
+"%3$s\n"
+"\n"
+"Uppgifterna registreras först när du bekräftar dem via länken nedan. Länken "
+"är giltig i %4$d timmar och kan användas en gång:\n"
+"\n"
+"%5$s\n"
+"\n"
+"Om du inte har skickat dessa uppgifter behöver du inte göra något: utan "
+"bekräftelse sparas ingenting."
+
+#. translators: %s: site name.
+#: includes/class-edu-consent-requests.php:190
+#, php-format
+msgid "[%s] Bitte bestätigen Sie Ihre Angaben zur Einwilligung"
+msgstr "[%s] Bekräfta dina samtyckesuppgifter"
+
+#. translators: 1: pupil ID, 2: date and time, 3: site name, 4: list of decisions.
+#: includes/class-edu-consent-requests.php:308
+#, php-format
+msgid ""
+"Guten Tag,\n"
+"\n"
+"für die Schüler-ID %1$s wurden am %2$s folgende Entscheidungen im "
+"Einwilligungsregister von %3$s erfasst:\n"
+"\n"
+"%4$s"
+msgstr ""
+"Hej,\n"
+"\n"
+"för elev-ID %1$s registrerades den %2$s följande beslut i samtyckesregistret "
+"på %3$s:\n"
+"\n"
+"%4$s"
+
+#. translators: %s: revocation link.
+#: includes/class-edu-consent-requests.php:317
+#, php-format
+msgid ""
+"Erteilte Einwilligungen können Sie jederzeit über diesen Link widerrufen:\n"
+"\n"
+"%s"
+msgstr ""
+"Beviljade samtycken kan när som helst återkallas via denna länk:\n"
+"\n"
+"%s"
+
+#. translators: %s: site name.
+#: includes/class-edu-consent-requests.php:322
+#, php-format
+msgid "[%s] Ihre Angaben zur Einwilligung wurden erfasst"
+msgstr "[%s] Dina samtyckesuppgifter har registrerats"
+
+#. translators: 1: pupil ID, 2: date and time, 3: site name, 4: list of consent types.
+#: includes/class-edu-consent-requests.php:395
+#, php-format
+msgid ""
+"Guten Tag,\n"
+"\n"
+"für die Schüler-ID %1$s wurde am %2$s der Widerruf folgender Einwilligungen "
+"im Einwilligungsregister von %3$s erfasst:\n"
+"\n"
+"%4$s"
+msgstr ""
+"Hej,\n"
+"\n"
+"för elev-ID %1$s registrerades den %2$s återkallelsen av följande samtycken "
+"i registret på %3$s:\n"
+"\n"
+"%4$s"
+
+#. translators: %s: site name.
+#: includes/class-edu-consent-requests.php:402
+#, php-format
+msgid "[%s] Ihr Widerruf wurde erfasst"
+msgstr "[%s] Din återkallelse har registrerats"
+
+#: includes/class-edu-ecosystem.php:34 includes/class-edu-ecosystem.php:44
+msgid "Einwilligungsregister-Status"
+msgstr "Status för samtyckesregister"
+
+#: includes/class-edu-ecosystem.php:78
+msgid "Einwilligung erteilt"
+msgstr "Samtycke beviljat"
+
+#: includes/class-edu-ecosystem.php:79 includes/class-edu-ecosystem.php:93
+msgid "Register nicht prüfbar"
+msgstr "Registret ej verifierbart"
+
+#: includes/class-edu-ecosystem.php:80
+msgid "Kein aktiver Einwilligungsnachweis"
+msgstr "Inget aktivt samtyckesbevis"
+
+#: includes/class-edu-ecosystem.php:92
+msgid "Einwilligungsregister aktiv"
+msgstr "Samtyckesregister aktivt"
+
+#. translators: %s: parameter name.
+#: includes/class-edu-rest-controller.php:97
+#, php-format
+msgid "%s muss ein Text in gültigem UTF-8 sein."
+msgstr "%s måste vara giltig UTF-8-text."
+
+#. translators: %s: parameter name.
+#: includes/class-edu-rest-controller.php:124
+#, php-format
+msgid ""
+"%s muss ein Objekt mit Texten als Werten sein, zum Beispiel {\"Max Müller\": "
+"\"\"}."
+msgstr ""
+"%s måste vara ett objekt med strängvärden, exempelvis {\"Max Müller\": \"\"}."
+
+#: includes/class-edu-rest-controller.php:148
+msgid "Der Text konnte nicht pseudonymisiert werden."
+msgstr "Texten kunde inte pseudonymiseras."
+
+#: includes/class-edu-shortcodes.php:70
+msgid ""
+"Diese Demo steht angemeldeten Benutzern mit der nötigen Berechtigung offen. "
+"Wer sie benutzen kann, kann auch das Token eines geratenen Datums berechnen."
+msgstr ""
+"Denna demo är öppen för inloggade användare med rätt behörighet. Den som kan "
+"använda den kan även beräkna token för ett gissat datum."
+
+#: includes/class-edu-shortcodes.php:75
+msgid "Pseudonymisierung vor der Übergabe an KI-Dienste"
+msgstr "Pseudonymisering före överföring till AI-tjänster"
+
+#: includes/class-edu-shortcodes.php:76
+msgid ""
+"Ersetzt Datumsangaben wie Geburtsdaten und Klassenbezeichnungen durch "
+"Platzhalter, bevor ein Text an ein KI-Modell geht. Schülernamen werden nur "
+"ersetzt, wenn die Namensliste der Schule als known_students an die REST-"
+"Route wm-edu/v1/tokenize übergeben wird."
+msgstr ""
+"Ersätter datum som födelsedatum och klassbeteckningar med platshållare innan "
+"text skickas till en AI-modell. Elevnamn ersätts endast om skolans namnlista "
+"skickas som known_students till wm-edu/v1/tokenize."
+
+#: includes/class-edu-shortcodes.php:78
+msgid "Text mit Schülerdaten"
+msgstr "Text med elevuppgifter"
+
+#: includes/class-edu-shortcodes.php:78
+msgid ""
+"Max Müller (geb. 15.03.2012) aus Klasse 9b hat im Aufsatz eine hervorragende "
+"Leistung erbracht."
+msgstr ""
+"Max Müller (född 15.03.2012) i Klasse 9b har presterat utmärkt i uppsatsen."
+
+#: includes/class-edu-shortcodes.php:79
+msgid "Text pseudonymisieren"
+msgstr "Pseudonymisera text"
+
+#: includes/class-edu-shortcodes.php:97
+msgid "Der Text konnte nicht verarbeitet werden: er ist kein gültiges UTF-8."
+msgstr "Texten kunde inte bearbetas: ogiltig UTF-8."
+
+#. translators: %d: number of replaced dates and class identifiers.
+#: includes/class-edu-shortcodes.php:102
+#, php-format
+msgid "Pseudonymisierter Text (%d Datum oder Klassenbezeichnung ersetzt)"
+msgid_plural ""
+"Pseudonymisierter Text (%d Datumsangaben oder Klassenbezeichnungen ersetzt)"
+msgstr[0] "Pseudonymiserad text (%d datum eller klassbeteckning ersatt)"
+msgstr[1] "Pseudonymiserad text (%d datum eller klassbeteckningar ersatta)"
+
+#: includes/class-edu-shortcodes.php:107
+msgid ""
+"Hinweis: Schülernamen werden nur pseudonymisiert, wenn die Schülerliste der "
+"Schule als known_students an die REST-Route wm-edu/v1/tokenize übergeben "
+"wird. Diese Demo ersetzt Datumsangaben und Klassenbezeichnungen."
+msgstr ""
+"Obs: elevnamn pseudonymiseras endast när skolans elevlista skickas som "
+"known_students till REST-rutten wm-edu/v1/tokenize. Denna demo ersätter "
+"datum och klasser."
+
+#: includes/class-edu-shortcodes.php:125
+msgid "Zur Anmeldung"
+msgstr "Till inloggning"
+
+#: includes/class-edu-shortcodes.php:143 includes/class-edu-shortcodes.php:153
+#: includes/class-edu-shortcodes.php:154
+msgid "Eltern-Einwilligung prüfen"
+msgstr "Kontrollera föräldrasamtycke"
+
+#: includes/class-edu-shortcodes.php:145
+msgid ""
+"Diese Abfrage steht angemeldeten Benutzern mit der nötigen Berechtigung "
+"offen. Sie gibt preis, ob für eine Schüler-ID eine Einwilligung vorliegt."
+msgstr ""
+"Denna sökning är öppen för inloggade behöriga användare och visar om "
+"samtycke finns för ett elev-ID."
+
+#: includes/class-edu-shortcodes.php:155
+msgid ""
+"Zeigt den letzten Eintrag im Einwilligungsregister dieser Website für eine "
+"Schüler-ID, gleich welcher Einwilligungsart. Solange die Signaturkette des "
+"Registers nicht vollständig geprüft werden kann, wird keine Einwilligung "
+"angezeigt."
+msgstr ""
+"Visar den senaste posten i webbplatsens samtyckesregister för ett elev-ID "
+"oavsett typ. Så länge signaturkedjan inte kan verifieras visas inget "
+"samtycke."
+
+#. translators: %s: label of the consent type the shortcode asks about.
+#: includes/class-edu-shortcodes.php:160
+#, php-format
+msgid "Geprüft wird nur die Einwilligungsart: %s"
+msgstr "Endast samtyckestypen kontrolleras: %s"
+
+#: includes/class-edu-shortcodes.php:167
+msgid "Schüler-ID / Token"
+msgstr "Elev-ID / Token"
+
+#: includes/class-edu-shortcodes.php:168
+msgid "Einwilligung prüfen"
+msgstr "Kontrollera samtycke"
+
+#: includes/class-edu-shortcodes.php:178
+msgid ""
+"Die Sicherheitsprüfung ist fehlgeschlagen. Bitte laden Sie die Seite neu und "
+"versuchen Sie es erneut."
+msgstr "Säkerhetskontrollen misslyckades. Ladda om sidan och försök igen."
+
+#. translators: %s: pupil token.
+#: includes/class-edu-shortcodes.php:186
+#, php-format
+msgid ""
+"GÜLTIGE EINWILLIGUNG: Für %s ist als letzter Eintrag im Register eine "
+"erteilte Einwilligung erfasst."
+msgstr ""
+"GILTIGT SAMTYCKE: För %s är den senaste posten i registret ett beviljat "
+"samtycke."
+
+#: includes/class-edu-shortcodes.php:188
+msgid ""
+"REGISTER NICHT PRÜFBAR: Die Einwilligungstabelle fehlt oder ihre "
+"Signaturkette ist unterbrochen; es wird keine Einwilligung angezeigt."
+msgstr ""
+"REGISTRET EJ VERIFIERBART: Samtyckestabellen saknas eller signaturkedjan är "
+"bruten; inget samtycke visas."
+
+#. translators: %s: pupil token.
+#: includes/class-edu-shortcodes.php:191
+#, php-format
+msgid ""
+"KEIN NACHWEIS: Für %s liegt kein aktiver Einwilligungsnachweis vor oder er "
+"wurde widerrufen."
+msgstr ""
+"INGET BEVIS: För %s finns inget aktivt samtycke eller så har det återkallats."
+
+#. translators: %s: action name.
+#: includes/class-edu-spoke-adapter.php:134
+#, php-format
+msgid "Unbekannte Spoke-Aktion \"%s\"."
+msgstr "Okänd spoke-åtgärd \"%s\"."
+
+#: includes/class-edu-spoke-adapter.php:142
+msgid "Die Pseudonymisierung liefert abweichende Werte."
+msgstr "Pseudonymiseringen ger avvikande värden."
+
+#: includes/class-edu-spoke-adapter.php:145
+msgid "Die Pseudonymisierung ist abgebrochen."
+msgstr "Pseudonymiseringen avbröts."
+
+#: includes/class-edu-spoke-adapter.php:156
+msgid "Selbsttest fehlgeschlagen:"
+msgstr "Självtest misslyckades:"
+
+#. translators: 1: rows verified, 2: rows in the ledger.
+#: includes/class-edu-spoke-adapter.php:162
+#, php-format
+msgid ""
+"Pseudonymisierung ersetzt Namen, Klasse und Datum; Einwilligungskette gültig "
+"(%1$d von %2$d Einträgen geprüft)."
+msgstr ""
+"Pseudonymisering ersätter namn, klass och datum; samtyckeskedja giltig (%1$d "
+"av %2$d poster verifierade)."
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

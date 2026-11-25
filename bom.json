@@ -1,0 +1,35 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-18T21:50:28Z",
+    "component": {
+      "type": "application",
+      "name": "wm-edu-privacy-portal",
+      "version": "1.2.1",
+      "description": "Parental consent register with e-mail confirmation, hash-chained audit trail, and school PII pseudonymisation.",
+      "supplier": {
+        "name": "Arnold Wender",
+        "url": [
+          "https://arnoldwender.com"
+        ]
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:wordpress/wm-edu-privacy-portal@1.2.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b8b38d82629331eb7dad9ec25816d568c7639e1f3f9f533b6a4b44da0b7b11e0"
+        }
+      ]
+    }
+  },
+  "components": []
+}

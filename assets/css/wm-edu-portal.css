@@ -1,0 +1,293 @@
+/**
+ * WM Edu Privacy Portal — shortcode sheet.
+ *
+ * Replaces the inline styles of both forms (2026-09-15). Every colour and dimension is a custom property on the box;
+ * rules only use var(). The dark palette of the former inline styles stays, with the pairs that missed the minimums
+ * changed: button text on its background at least 4.5:1, field borders and buttons against the box at least 3:1
+ * (tests/test-suite.php computes the ratios from the values below).
+ */
+
+.wm-edu-box {
+	--edu-surface: #0f172a;
+	--edu-surface-raised: #1e293b;
+	--edu-border: #334155;
+	--edu-field-border: #94a3b8;
+	--edu-text: #f8fafc;
+	--edu-text-muted: #94a3b8;
+	--edu-text-code: #e2e8f0;
+	--edu-heading: #38bdf8;
+	--edu-heading-gate: #10b981;
+	--edu-accent: #0369a1;
+	--edu-accent-gate: #047857;
+	--edu-accent-contrast: #ffffff;
+	--edu-result-title: #34d399;
+	--edu-notice: #fbbf24;
+	--edu-valid-bg: #064e3b;
+	--edu-valid-text: #34d399;
+	--edu-blocked-bg: #450a0a;
+	--edu-blocked-text: #fca5a5;
+	--edu-unverifiable-bg: #451a03;
+	--edu-unverifiable-text: #fcd34d;
+	--edu-focus: #38bdf8;
+	--edu-error-text: #fca5a5;
+	--edu-border-width: 1px;
+	--edu-hidden-size: 1px;
+	--edu-choice-size: 1.25rem;
+	--edu-focus-width: 2px;
+	--edu-radius-sm: 6px;
+	--edu-radius: 8px;
+	--edu-radius-lg: 12px;
+	--edu-space-1: 4px;
+	--edu-space-2: 8px;
+	--edu-space-3: 12px;
+	--edu-space-4: 16px;
+	--edu-space-5: 20px;
+	--edu-space-6: 24px;
+	--edu-target: 48px;
+	--edu-max-width: 650px;
+	--edu-icon-offset: -0.125em;
+	--edu-text-sm: 0.875rem;
+	--edu-text-base: 1rem;
+	--edu-text-lg: 1.25rem;
+	--edu-font: system-ui, sans-serif;
+
+	box-sizing: border-box;
+	max-width: var(--edu-max-width);
+	margin: var(--edu-space-5) auto;
+	padding: var(--edu-space-6);
+	background: var(--edu-surface);
+	color: var(--edu-text);
+	border: var(--edu-border-width) solid var(--edu-border);
+	border-radius: var(--edu-radius-lg);
+	font-family: var(--edu-font);
+	font-size: var(--edu-text-base);
+	line-height: 1.5;
+}
+
+.wm-edu-box *,
+.wm-edu-box *::before,
+.wm-edu-box *::after {
+	box-sizing: inherit;
+}
+
+.wm-edu-icon {
+	vertical-align: var(--edu-icon-offset);
+}
+
+.wm-edu-title {
+	margin: 0 0 var(--edu-space-2);
+	font-size: var(--edu-text-lg);
+	color: var(--edu-heading);
+}
+
+.wm-edu-title-gate {
+	color: var(--edu-heading-gate);
+}
+
+.wm-edu-intro {
+	margin: 0 0 var(--edu-space-4);
+	color: var(--edu-text-muted);
+}
+
+.wm-edu-form {
+	display: grid;
+	gap: var(--edu-space-3);
+}
+
+.wm-edu-field {
+	display: grid;
+	gap: var(--edu-space-1);
+	font-size: var(--edu-text-sm);
+}
+
+.wm-edu-input {
+	width: 100%;
+	min-height: var(--edu-target);
+	padding: var(--edu-space-2);
+	background: var(--edu-surface-raised);
+	color: var(--edu-text);
+	border: var(--edu-border-width) solid var(--edu-field-border);
+	border-radius: var(--edu-radius-sm);
+	font: inherit;
+	font-size: var(--edu-text-base);
+}
+
+.wm-edu-button {
+	min-height: var(--edu-target);
+	padding: var(--edu-space-2) var(--edu-space-4);
+	background: var(--edu-accent);
+	color: var(--edu-accent-contrast);
+	border: var(--edu-border-width) solid var(--edu-accent);
+	border-radius: var(--edu-radius-sm);
+	font: inherit;
+	font-size: var(--edu-text-base);
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.wm-edu-button-gate {
+	background: var(--edu-accent-gate);
+	border-color: var(--edu-accent-gate);
+}
+
+.wm-edu-box :is(button, input, textarea):focus-visible {
+	outline: var(--edu-focus-width) solid var(--edu-focus);
+	outline-offset: var(--edu-focus-width);
+}
+
+.wm-edu-result {
+	margin-top: var(--edu-space-4);
+	padding: var(--edu-space-4);
+	background: var(--edu-surface-raised);
+	border: var(--edu-border-width) solid var(--edu-field-border);
+	border-radius: var(--edu-radius);
+}
+
+.wm-edu-result-title {
+	margin: 0 0 var(--edu-space-2);
+	color: var(--edu-result-title);
+}
+
+.wm-edu-pre {
+	margin: 0;
+	padding: var(--edu-space-3);
+	background: var(--edu-surface);
+	color: var(--edu-text-code);
+	border-radius: var(--edu-radius-sm);
+	font-size: var(--edu-text-sm);
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.wm-edu-notice {
+	margin: var(--edu-space-2) 0 0;
+	color: var(--edu-notice);
+	font-size: var(--edu-text-sm);
+}
+
+.wm-edu-alert {
+	margin-top: var(--edu-space-4);
+	padding: var(--edu-space-3);
+	border-radius: var(--edu-radius);
+	font-weight: 600;
+}
+
+.wm-edu-alert.is-valid {
+	background: var(--edu-valid-bg);
+	color: var(--edu-valid-text);
+}
+
+.wm-edu-alert.is-blocked {
+	background: var(--edu-blocked-bg);
+	color: var(--edu-blocked-text);
+}
+
+.wm-edu-alert.is-unverifiable {
+	background: var(--edu-unverifiable-bg);
+	color: var(--edu-unverifiable-text);
+}
+
+/* Guardian consent form ([wm_edu_consent_form], 2026-09-17). Choices reach the target size through min-block-size. */
+
+.wm-edu-consent-form-box {
+	position: relative;
+}
+
+.wm-edu-fieldset,
+.wm-edu-type {
+	display: grid;
+	gap: var(--edu-space-2);
+	margin: 0;
+	padding: var(--edu-space-3);
+	border: var(--edu-border-width) solid var(--edu-border);
+	border-radius: var(--edu-radius);
+}
+
+.wm-edu-legend {
+	padding: 0 var(--edu-space-1);
+	font-weight: 600;
+	color: var(--edu-text);
+}
+
+.wm-edu-type-desc {
+	margin: 0;
+	color: var(--edu-text-muted);
+	font-size: var(--edu-text-sm);
+}
+
+.wm-edu-details {
+	padding: var(--edu-space-2) var(--edu-space-3);
+	background: var(--edu-surface-raised);
+	border-radius: var(--edu-radius-sm);
+}
+
+.wm-edu-summary {
+	min-block-size: var(--edu-target);
+	padding-block: var(--edu-space-3);
+	cursor: pointer;
+}
+
+.wm-edu-consent-text {
+	margin-top: var(--edu-space-2);
+	color: var(--edu-text-code);
+	font-size: var(--edu-text-sm);
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.wm-edu-choice {
+	display: flex;
+	align-items: center;
+	gap: var(--edu-space-2);
+	min-block-size: var(--edu-target);
+	cursor: pointer;
+}
+
+.wm-edu-choice input {
+	flex: none;
+	inline-size: var(--edu-choice-size);
+	block-size: var(--edu-choice-size);
+	margin: 0;
+	accent-color: var(--edu-accent);
+}
+
+.wm-edu-input[aria-invalid="true"] {
+	border-color: var(--edu-error-text);
+}
+
+.wm-edu-error {
+	margin: 0;
+	color: var(--edu-error-text);
+	font-size: var(--edu-text-sm);
+}
+
+.wm-edu-alert-title {
+	margin: 0;
+}
+
+.wm-edu-error-list,
+.wm-edu-decisions {
+	display: grid;
+	gap: var(--edu-space-2);
+	margin: var(--edu-space-2) 0 var(--edu-space-4);
+	padding-left: var(--edu-space-5);
+}
+
+.wm-edu-alert a {
+	color: inherit;
+}
+
+.wm-edu-box :is(summary, a):focus-visible {
+	outline: var(--edu-focus-width) solid var(--edu-focus);
+	outline-offset: var(--edu-focus-width);
+}
+
+/* Honeypot field: out of sight and out of the tab order, still in the form for programs that fill every field. */
+.wm-edu-hp {
+	position: absolute;
+	inline-size: var(--edu-hidden-size);
+	block-size: var(--edu-hidden-size);
+	overflow: hidden;
+	clip-path: inset(50%);
+	white-space: nowrap;
+}

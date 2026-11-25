@@ -1,0 +1,1074 @@
+# Translation of wm-edu-privacy-portal in es_ES
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-edu-privacy-portal 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-edu-privacy-"
+"portal\n"
+"POT-Creation-Date: 2026-11-25T00:05:41+00:00\n"
+"PO-Revision-Date: 2026-11-16 23:30+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-edu-privacy-"
+"portal/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-edu-privacy-"
+"portal/issues>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-edu-privacy-portal\n"
+
+#. Plugin Name of the plugin
+#: wm-edu-privacy-portal.php
+msgid "WM Edu Privacy Portal"
+msgstr "WM Edu Privacy Portal"
+
+#. Plugin URI of the plugin
+#: wm-edu-privacy-portal.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-edu-privacy-portal/"
+msgstr ""
+
+#. Description of the plugin
+#: wm-edu-privacy-portal.php
+msgid ""
+"Ersetzt Datumsangaben, Klassenbezeichnungen und übergebene Schülernamen "
+"durch Platzhalter, bevor Text die Website verlässt, und prüft Eltern-"
+"Einwilligungen gegen ein hash-verkettetes Register."
+msgstr ""
+"Sustituye fechas, identificadores de clase y nombres de alumnos indicados "
+"por marcadores antes de que el texto salga del sitio web, y verifica los "
+"consentimientos parentales frente a un registro encadenado por hash."
+
+#. Author of the plugin
+#: wm-edu-privacy-portal.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-edu-privacy-portal.php
+msgid "https://arnoldwender.com"
+msgstr ""
+
+#: includes/class-edu-access.php:96
+msgid ""
+"Diese Route setzt eine Anmeldung voraus. Cookie-Anmeldungen benötigen "
+"zusätzlich den REST-Nonce X-WP-Nonce."
+msgstr ""
+"Esta ruta requiere iniciar sesión. Las sesiones por cookie necesitan además "
+"el nonce REST X-WP-Nonce."
+
+#: includes/class-edu-access.php:99
+msgid "Für diese Route fehlt die Berechtigung."
+msgstr "Falta el permiso necesario para acceder a esta ruta."
+
+#: includes/class-edu-admin.php:60 includes/class-edu-admin.php:389
+msgid "Einwilligungen"
+msgstr "Consentimientos"
+
+#: includes/class-edu-admin.php:61
+msgid "Übersicht"
+msgstr "Resumen"
+
+#: includes/class-edu-admin.php:62 includes/class-edu-admin.php:455
+msgid "Erfassen"
+msgstr "Registrar"
+
+#: includes/class-edu-admin.php:63 includes/class-edu-admin.php:503
+msgid "Einwilligungsarten"
+msgstr "Tipos de consentimiento"
+
+#: includes/class-edu-admin.php:64 includes/class-edu-admin.php:537
+msgid "Erziehungsberechtigte"
+msgstr "Tutores legales"
+
+#: includes/class-edu-admin.php:65 includes/class-edu-admin.php:580
+msgid "Einstellungen"
+msgstr "Ajustes"
+
+#: includes/class-edu-admin.php:244
+msgid "Sie haben keine Berechtigung für diese Aktion."
+msgstr "No tiene permiso para realizar esta acción."
+
+#: includes/class-edu-admin.php:314
+msgid "Die Einwilligung wurde erfasst."
+msgstr "El consentimiento ha sido registrado."
+
+#: includes/class-edu-admin.php:315
+msgid "Der Widerruf wurde erfasst."
+msgstr "La revocación ha sido registrada."
+
+#: includes/class-edu-admin.php:316
+msgid "Die Einwilligungsart wurde angelegt."
+msgstr "El tipo de consentimiento ha sido creado."
+
+#: includes/class-edu-admin.php:317
+msgid "Die Einwilligungsart wurde gespeichert."
+msgstr "El tipo de consentimiento ha sido guardado."
+
+#: includes/class-edu-admin.php:318
+msgid "Die Zuordnung wurde gespeichert."
+msgstr "La asignación de tutor ha sido guardada."
+
+#: includes/class-edu-admin.php:319
+msgid "Die Zuordnung wurde entfernt."
+msgstr "La asignación de tutor ha sido eliminada."
+
+#: includes/class-edu-admin.php:320
+msgid "Die Zuordnungen wurden übernommen."
+msgstr "Las asignaciones de tutores han sido importadas."
+
+#: includes/class-edu-admin.php:321
+msgid "Die Einstellungen wurden gespeichert."
+msgstr "Los ajustes han sido guardados."
+
+#: includes/class-edu-admin.php:324
+msgid ""
+"Die Angaben sind unvollständig: Schüler-ID, E-Mail-Adresse, Art, Status und "
+"Begründung werden benötigt."
+msgstr ""
+"Datos incompletos: se requieren identificador de alumno, correo electrónico, "
+"tipo, estado y motivo."
+
+#: includes/class-edu-admin.php:325
+msgid ""
+"Für diese Schüler-ID und Art gibt es keinen Eintrag, der widerrufen werden "
+"könnte."
+msgstr ""
+"No existe ningún registro para este identificador de alumno y tipo que pueda "
+"revocarse."
+
+#: includes/class-edu-admin.php:326
+msgid "Diese Einwilligungsart gibt es nicht."
+msgstr "Este tipo de consentimiento no existe."
+
+#: includes/class-edu-admin.php:327
+msgid "Dieser Status ist nicht zulässig."
+msgstr "Este estado no está permitido."
+
+#: includes/class-edu-admin.php:328
+msgid "Diese Kennung ist bereits vergeben."
+msgstr "Este código identificador ya está en uso."
+
+#: includes/class-edu-admin.php:329
+msgid ""
+"Kennung, Bezeichnung und Wortlaut werden benötigt; die Kennung besteht aus "
+"Großbuchstaben, Ziffern, \"_\" und \"-\"."
+msgstr ""
+"Se requieren código, etiqueta y texto; el código consta de mayúsculas, "
+"cifras, \"_\" y \"-\"."
+
+#: includes/class-edu-admin.php:330
+msgid "Diese Zuordnung gibt es bereits."
+msgstr "Esta asignación ya existe."
+
+#: includes/class-edu-admin.php:331
+msgid "Schüler-ID oder E-Mail-Adresse sind nicht gültig."
+msgstr "El identificador de alumno o el correo electrónico no son válidos."
+
+#: includes/class-edu-admin.php:332
+msgid "Diese Zuordnung gibt es nicht."
+msgstr "Esta asignación no existe."
+
+#: includes/class-edu-admin.php:333
+msgid "Einige Zeilen konnten nicht gelesen werden; der Rest wurde übernommen."
+msgstr "Algunas líneas no pudieron leerse; el resto se importó correctamente."
+
+#: includes/class-edu-admin.php:334
+msgid "Es wurde keine Zuordnung übernommen."
+msgstr "No se importó ninguna asignación."
+
+#: includes/class-edu-admin.php:335
+msgid "Das Register war gesperrt. Bitte in einigen Minuten erneut versuchen."
+msgstr "El registro estaba bloqueado. Inténtelo de nuevo en unos minutos."
+
+#: includes/class-edu-admin.php:336
+msgid "Die Einwilligungstabelle fehlt."
+msgstr "Falta la tabla del registro de consentimientos."
+
+#: includes/class-edu-admin.php:337
+msgid "Der Eintrag konnte nicht gespeichert werden."
+msgstr "No se pudo guardar la entrada."
+
+#. translators: 1: rows verified, 2: schema-1 rows among them.
+#: includes/class-edu-admin.php:355
+#, php-format
+msgid "Signaturkette geprüft: %1$d Einträge, davon %2$d aus Schema 1."
+msgstr ""
+"Cadena de firmas verificada: %1$d entradas, %2$d de ellas del esquema 1."
+
+#: includes/class-edu-admin.php:362
+msgid "Das Register ist nicht prüfbar:"
+msgstr "El registro no es verificable:"
+
+#: includes/class-edu-admin.php:363
+msgid "Solange das so ist, zeigt die Abfrage im Portal keine Einwilligung an."
+msgstr ""
+"Mientras sea así, la consulta en el portal no muestra ningún consentimiento."
+
+#: includes/class-edu-admin.php:368 includes/class-edu-consent-requests.php:304
+msgid "erteilt"
+msgstr "concedido"
+
+#: includes/class-edu-admin.php:369
+msgid "widerrufen"
+msgstr "revocado"
+
+#: includes/class-edu-admin.php:370 includes/class-edu-consent-requests.php:304
+msgid "verweigert"
+msgstr "denegado"
+
+#: includes/class-edu-admin.php:377
+msgid "Bestätigung der Erziehungsberechtigten"
+msgstr "Confirmación de los tutores"
+
+#: includes/class-edu-admin.php:378
+msgid "Widerrufslink"
+msgstr "Enlace de revocación"
+
+#: includes/class-edu-admin.php:379
+msgid "Erfassung im Backend"
+msgstr "Alta en administración"
+
+#: includes/class-edu-admin.php:380
+msgid "Widerruf im Backend"
+msgstr "Revocación en administración"
+
+#: includes/class-edu-admin.php:381
+msgid "Programmaufruf"
+msgstr "Llamada programática"
+
+#: includes/class-edu-admin.php:383
+msgid "unbekannt (Schema 2)"
+msgstr "desconocido (esquema 2)"
+
+#: includes/class-edu-admin.php:394 includes/class-edu-admin.php:420
+#: includes/class-edu-admin.php:459 includes/class-edu-admin.php:482
+#: includes/class-edu-admin.php:542 includes/class-edu-admin.php:563
+#: includes/class-edu-consent-form.php:314
+msgid "Schüler-ID"
+msgstr "ID de alumno"
+
+#: includes/class-edu-admin.php:396
+msgid "Verlauf anzeigen"
+msgstr "Mostrar historial"
+
+#: includes/class-edu-admin.php:398
+msgid "Register als CSV exportieren"
+msgstr "Exportar registro como CSV"
+
+#: includes/class-edu-admin.php:402
+msgid "Aktueller Stand je Schüler-ID und Art"
+msgstr "Estado actual por ID de alumno y tipo"
+
+#. translators: %s: pupil ID.
+#: includes/class-edu-admin.php:404
+#, php-format
+msgid "Verlauf für %s"
+msgstr "Historial de %s"
+
+#: includes/class-edu-admin.php:415
+msgid "Keine Einträge."
+msgstr "No hay entradas."
+
+#: includes/class-edu-admin.php:419
+msgid "Zeit (UTC)"
+msgstr "Hora (UTC)"
+
+#: includes/class-edu-admin.php:421
+msgid "Art"
+msgstr "Tipo"
+
+#: includes/class-edu-admin.php:422 includes/class-edu-admin.php:466
+msgid "Status"
+msgstr "Estado"
+
+#: includes/class-edu-admin.php:423
+msgid "E-Mail"
+msgstr "Correo electrónico"
+
+#: includes/class-edu-admin.php:424
+msgid "Herkunft"
+msgstr "Origen"
+
+#: includes/class-edu-admin.php:425 includes/class-edu-admin.php:471
+#: includes/class-edu-admin.php:488
+msgid "Begründung"
+msgstr "Motivo"
+
+#: includes/class-edu-admin.php:426 includes/class-edu-admin.php:529
+msgid "Wortlaut"
+msgstr "Texto literal"
+
+#: includes/class-edu-admin.php:439
+msgid "aktueller Wortlaut"
+msgstr "texto vigente"
+
+#: includes/class-edu-admin.php:439
+msgid "seit der Erteilung geändert"
+msgstr "modificado desde la concesión"
+
+#: includes/class-edu-admin.php:444
+msgid "Widerrufen und Nacherfassen: über die Seite „Erfassen“."
+msgstr "Revocaciones y altas manuales: mediante la página «Registrar»."
+
+#: includes/class-edu-admin.php:449
+msgid "Einwilligung erfassen oder widerrufen"
+msgstr "Registrar o revocar consentimiento"
+
+#: includes/class-edu-admin.php:452
+msgid ""
+"Für Fälle außerhalb des Formulars: eine auf Papier erteilte Einwilligung "
+"nachtragen oder einen telefonisch erklärten Widerruf erfassen. Jeder Eintrag "
+"wird mit Ihrem Benutzerkonto und Ihrer Begründung signiert."
+msgstr ""
+"Para casos fuera del formulario web: dar de alta un consentimiento firmado "
+"en papel o anotar una revocación telefónica. Cada entrada se firma con su "
+"cuenta de usuario y el motivo indicado."
+
+#: includes/class-edu-admin.php:460
+msgid "E-Mail-Adresse der Erziehungsberechtigten"
+msgstr "Correo electrónico de los tutores"
+
+#: includes/class-edu-admin.php:461 includes/class-edu-admin.php:483
+msgid "Einwilligungsart"
+msgstr "Tipo de consentimiento"
+
+#: includes/class-edu-admin.php:472
+msgid ""
+"Woher der Eintrag stammt, zum Beispiel: unterschriebenes Formular vom "
+"12.09.2026, im Sekretariat abgelegt."
+msgstr ""
+"Origen de la entrada, por ejemplo: formulario firmado del 12.09.2026 "
+"archivado en secretaría."
+
+#: includes/class-edu-admin.php:474
+msgid "Eintrag erfassen"
+msgstr "Guardar entrada"
+
+#: includes/class-edu-admin.php:477
+msgid "Widerrufen"
+msgstr "Revocar"
+
+#: includes/class-edu-admin.php:478
+msgid ""
+"Trägt einen Widerruf für den letzten Eintrag dieser Schüler-ID und Art ein; "
+"E-Mail-Adresse und Wortlaut werden aus diesem Eintrag übernommen."
+msgstr ""
+"Registra una revocación para la última entrada de este ID de alumno y tipo; "
+"el correo y el texto se copian de dicha entrada."
+
+#: includes/class-edu-admin.php:490
+msgid "Widerruf erfassen"
+msgstr "Guardar revocación"
+
+#: includes/class-edu-admin.php:505
+msgid ""
+"Der Wortlaut ist das, wozu die Erziehungsberechtigten einwilligen; sein "
+"SHA-256 wird mit jeder Einwilligung gespeichert. Ein geänderter Wortlaut "
+"gilt für neue Anfragen; frühere Einträge behalten ihren. Arten werden nicht "
+"gelöscht, sondern deaktiviert."
+msgstr ""
+"El texto literal recoge aquello a lo que consienten los tutores; su hash "
+"SHA-256 se guarda con cada entrada. Un texto modificado rige para nuevas "
+"solicitudes y las anteriores conservan el suyo. Los tipos no se borran, solo "
+"se desactivan."
+
+#: includes/class-edu-admin.php:507 includes/class-edu-admin.php:527
+msgid "Bezeichnung"
+msgstr "Etiqueta"
+
+#: includes/class-edu-admin.php:507 includes/class-edu-admin.php:522
+#: includes/class-edu-admin.php:525
+msgid "Kennung"
+msgstr "Código"
+
+#: includes/class-edu-admin.php:507 includes/class-edu-admin.php:530
+msgid "Aktiv"
+msgstr "Activo"
+
+#: includes/class-edu-admin.php:507
+msgid "Wortlaut-Hash"
+msgstr "Hash del texto"
+
+#: includes/class-edu-admin.php:507 includes/class-edu-admin.php:512
+msgid "Bearbeiten"
+msgstr "Editar"
+
+#: includes/class-edu-admin.php:510
+msgid "ja"
+msgstr "sí"
+
+#: includes/class-edu-admin.php:510
+msgid "nein"
+msgstr "no"
+
+#: includes/class-edu-admin.php:516
+msgid "Neue Einwilligungsart"
+msgstr "Nuevo tipo de consentimiento"
+
+#: includes/class-edu-admin.php:516
+msgid "Einwilligungsart bearbeiten"
+msgstr "Editar tipo de consentimiento"
+
+#: includes/class-edu-admin.php:523
+msgid ""
+"Wird im Register gespeichert und kann später nicht geändert werden, zum "
+"Beispiel FAHRT_2026."
+msgstr ""
+"Se guarda en el registro y no puede modificarse después, por ejemplo "
+"FAHRT_2026."
+
+#: includes/class-edu-admin.php:528
+msgid "Beschreibung"
+msgstr "Descripción"
+
+#: includes/class-edu-admin.php:530
+msgid "Im Formular für Erziehungsberechtigte anbieten"
+msgstr "Ofrecer en el formulario para tutores legales"
+
+#: includes/class-edu-admin.php:532
+msgid "Anlegen"
+msgstr "Crear"
+
+#: includes/class-edu-admin.php:532
+msgid "Speichern"
+msgstr "Guardar"
+
+#: includes/class-edu-admin.php:539
+msgid ""
+"Das Formular schickt nur dann einen Bestätigungslink, wenn Schüler-ID und E-"
+"Mail-Adresse hier zusammen hinterlegt sind. Gespeichert wird die Adresse "
+"nicht im Klartext, sondern als HMAC; sie lässt sich prüfen, aber nicht "
+"auslesen. Deshalb zeigt die Liste nur die Anzahl der Adressen je Schüler-ID."
+msgstr ""
+"El formulario solo envía un enlace de confirmación si el ID de alumno y el "
+"correo electrónico figuran juntos aquí. La dirección no se guarda en claro, "
+"sino como HMAC; puede comprobarse sin leerse. Por ello la lista solo muestra "
+"cuántas direcciones hay por alumno."
+
+#: includes/class-edu-admin.php:542
+msgid "Hinterlegte Adressen"
+msgstr "Direcciones registradas"
+
+#: includes/class-edu-admin.php:547
+msgid "Keine Zuordnungen hinterlegt."
+msgstr "No hay asignaciones registradas."
+
+#: includes/class-edu-admin.php:551
+msgid "Zuordnungen hinzufügen"
+msgstr "Añadir asignaciones"
+
+#: includes/class-edu-admin.php:554
+msgid ""
+"Eine Zuordnung je Zeile: Schüler-ID und E-Mail-Adresse, getrennt durch "
+"Semikolon, Komma oder Tabulator."
+msgstr ""
+"Una asignación por línea: ID de alumno y correo electrónico separados por "
+"punto y coma, coma o tabulador."
+
+#: includes/class-edu-admin.php:556
+msgid "Zuordnungen übernehmen"
+msgstr "Importar asignaciones"
+
+#: includes/class-edu-admin.php:559 includes/class-edu-admin.php:566
+msgid "Zuordnung entfernen"
+msgstr "Eliminar asignación"
+
+#: includes/class-edu-admin.php:564 includes/class-edu-consent-form.php:317
+msgid "E-Mail-Adresse"
+msgstr "Dirección de correo electrónico"
+
+#: includes/class-edu-admin.php:572
+msgid "Alle Adressen einer Schüler-ID entfernen"
+msgstr "Eliminar todas las direcciones de un ID de alumno"
+
+#: includes/class-edu-admin.php:574
+msgid "Alle Adressen entfernen"
+msgstr "Eliminar todas las direcciones"
+
+#: includes/class-edu-admin.php:584
+msgid "Zugang"
+msgstr "Acceso"
+
+#: includes/class-edu-admin.php:585
+msgid "Abfrage im Portal"
+msgstr "Consulta en el portal"
+
+#: includes/class-edu-admin.php:586
+msgid ""
+"Öffentlich zugänglich machen (wie vor Version mit Zugriffsschutz). Dann kann "
+"jede Person mit einer Schüler-ID erfahren, ob eine Einwilligung vorliegt."
+msgstr ""
+"Hacer accesible públicamente (como antes del control de acceso). Cualquiera "
+"con un ID de alumno podrá saber si consta consentimiento."
+
+#: includes/class-edu-admin.php:587 includes/class-edu-shortcodes.php:68
+#: includes/class-edu-shortcodes.php:74
+msgid "Pseudonymisierung"
+msgstr "Seudonimización"
+
+#: includes/class-edu-admin.php:588
+msgid ""
+"REST-Routen und Demo öffentlich zugänglich machen. Dann kann jede Person das "
+"Token eines geratenen Namens oder Datums berechnen."
+msgstr ""
+"Hacer públicas las rutas REST y la demostración. Cualquiera podrá calcular "
+"el token de un nombre o fecha supuestos."
+
+#: includes/class-edu-admin.php:589
+msgid "Rollen für die Abfrage"
+msgstr "Roles autorizados para la consulta"
+
+#: includes/class-edu-admin.php:593
+msgid "Zusätzlich zu Benutzern mit der Berechtigung „manage_edu_consents“."
+msgstr "Además de los usuarios con la capacidad «manage_edu_consents»."
+
+#: includes/class-edu-admin.php:596
+msgid "Formular für Erziehungsberechtigte"
+msgstr "Formulario para tutores legales"
+
+#: includes/class-edu-admin.php:597
+msgid "Gültigkeit des Bestätigungslinks (Stunden)"
+msgstr "Validez del enlace de confirmación (horas)"
+
+#: includes/class-edu-admin.php:598
+msgid "Anfragedaten löschen (Tage nach Ablauf)"
+msgstr "Borrar datos de solicitud (días tras caducar)"
+
+#: includes/class-edu-admin.php:599
+msgid "Anfragen je IP und Stunde"
+msgstr "Solicitudes por IP y hora"
+
+#: includes/class-edu-admin.php:600
+msgid "Anfragen je E-Mail-Adresse und Stunde"
+msgstr "Solicitudes por correo electrónico y hora"
+
+#: includes/class-edu-admin.php:602
+msgid ""
+"Erfasste Einwilligungen werden im laufenden Betrieb nie gelöscht; die "
+"Aufbewahrungsfrist gilt nur für Anfragen, die nicht bestätigt wurden, und "
+"für abgeschlossene Widerrufslinks."
+msgstr ""
+"Los consentimientos registrados nunca se borran durante el funcionamiento; "
+"el plazo de retención solo afecta a solicitudes no confirmadas y enlaces de "
+"revocación cerrados."
+
+#: includes/class-edu-admin.php:604
+msgid "Deinstallation"
+msgstr "Desinstalación"
+
+#: includes/class-edu-admin.php:605
+msgid "Daten bei Deinstallation löschen"
+msgstr "Borrar datos al desinstalar"
+
+#: includes/class-edu-admin.php:606
+msgid ""
+"Alle Einstellungen, Zuordnungen, Einwilligungsarten und das "
+"Einwilligungsregister beim Löschen des Plugins endgültig entfernen "
+"(Standard: deaktiviert — alle Daten bleiben erhalten)."
+msgstr ""
+"Eliminar definitivamente todos los ajustes, asignaciones, tipos de "
+"consentimiento y el registro al borrar el plugin (por defecto: desactivado — "
+"se conservan todos los datos)."
+
+#: includes/class-edu-consent-form.php:156
+msgid ""
+"Bitte geben Sie die Schüler-ID an, die Sie von der Schule erhalten haben "
+"(höchstens 64 Zeichen)."
+msgstr ""
+"Indique el ID de alumno facilitado por el centro (máximo 64 caracteres)."
+
+#: includes/class-edu-consent-form.php:159
+msgid "Bitte geben Sie eine gültige E-Mail-Adresse an."
+msgstr "Indique una dirección de correo electrónico válida."
+
+#: includes/class-edu-consent-form.php:175
+msgid ""
+"Bitte wählen Sie für mindestens eine Einwilligung „erteilen“ oder "
+"„verweigern“."
+msgstr "Seleccione «conceder» o «denegar» al menos para un consentimiento."
+
+#: includes/class-edu-consent-form.php:178
+msgid ""
+"Bitte bestätigen Sie, dass Sie den Wortlaut der gewählten Einwilligungen "
+"gelesen haben."
+msgstr ""
+"Confirme que ha leído el texto literal de los consentimientos seleccionados."
+
+#: includes/class-edu-consent-form.php:246
+msgid ""
+"Es wurden in kurzer Zeit zu viele Anfragen gesendet. Bitte versuchen Sie es "
+"in einer Stunde erneut."
+msgstr ""
+"Se han enviado demasiadas solicitudes en poco tiempo. Inténtelo de nuevo "
+"dentro de una hora."
+
+#: includes/class-edu-consent-form.php:247
+msgid ""
+"Ihre Angaben konnten gerade nicht gespeichert werden. Bitte versuchen Sie es "
+"in einigen Minuten erneut; der Link bleibt gültig."
+msgstr ""
+"No se han podido guardar sus datos en este momento. Inténtelo en unos "
+"minutos; el enlace sigue siendo válido."
+
+#: includes/class-edu-consent-form.php:248
+#: includes/class-edu-consent-form.php:352
+#: includes/class-edu-consent-form.php:378
+msgid "Dieser Link ist ungültig, abgelaufen oder wurde bereits verwendet."
+msgstr "Este enlace no es válido, ha caducado o ya fue utilizado."
+
+#: includes/class-edu-consent-form.php:249
+msgid ""
+"Ihre Angaben konnten nicht gespeichert werden. Bitte wenden Sie sich an die "
+"Schule."
+msgstr ""
+"No se han podido guardar sus datos. Póngase en contacto con el centro "
+"educativo."
+
+#: includes/class-edu-consent-form.php:250
+msgid "Bitte bestätigen Sie, dass Sie den Wortlaut gelesen haben."
+msgstr "Confirme que ha leído el texto literal."
+
+#: includes/class-edu-consent-form.php:261
+msgid ""
+"Vielen Dank. Wenn die Schüler-ID und die E-Mail-Adresse zu den Angaben der "
+"Schule passen, erhalten Sie in Kürze eine E-Mail mit einem Bestätigungslink. "
+"Erst mit der Bestätigung wird Ihre Entscheidung erfasst."
+msgstr ""
+"Muchas gracias. Si el ID de alumno y el correo coinciden con los datos del "
+"centro, recibirá en breve un correo con un enlace de confirmación. Su "
+"decisión solo se registra tras confirmarla."
+
+#: includes/class-edu-consent-form.php:262
+msgid ""
+"Ihre Angaben wurden erfasst. Sie erhalten eine Bestätigung per E-Mail; "
+"erteilte Einwilligungen können Sie über den Link darin jederzeit widerrufen."
+msgstr ""
+"Sus datos han sido registrados. Recibirá confirmación por correo "
+"electrónico; puede revocar los consentimientos concedidos en cualquier "
+"momento mediante el enlace incluido."
+
+#: includes/class-edu-consent-form.php:263
+msgid "Ihr Widerruf wurde erfasst. Sie erhalten eine Bestätigung per E-Mail."
+msgstr ""
+"Su revocación ha sido registrada. Recibirá confirmación por correo "
+"electrónico."
+
+#: includes/class-edu-consent-form.php:265
+msgid "Einwilligungen der Erziehungsberechtigten"
+msgstr "Consentimientos de tutores legales"
+
+#: includes/class-edu-consent-form.php:277
+msgid "Wortlaut der Einwilligung"
+msgstr "Texto del consentimiento"
+
+#: includes/class-edu-consent-form.php:290
+msgid "Einwilligungen erteilen oder verweigern"
+msgstr "Conceder o denegar consentimientos"
+
+#: includes/class-edu-consent-form.php:292
+msgid ""
+"Derzeit können über dieses Formular keine Einwilligungen erteilt werden."
+msgstr ""
+"Actualmente no pueden tramitarse consentimientos mediante este formulario."
+
+#: includes/class-edu-consent-form.php:294
+msgid ""
+"Geben Sie die Schüler-ID an, die Sie von der Schule erhalten haben, und die "
+"E-Mail-Adresse, die die Schule von Ihnen kennt. Sie erhalten eine E-Mail mit "
+"einem Bestätigungslink; erst mit der Bestätigung wird Ihre Entscheidung "
+"erfasst."
+msgstr ""
+"Introduzca el ID de alumno facilitado por el centro y el correo electrónico "
+"registrado allí. Recibirá un enlace de confirmación por correo; su decisión "
+"solo se guarda al confirmarlo."
+
+#: includes/class-edu-consent-form.php:305
+msgid "Bitte prüfen Sie Ihre Angaben:"
+msgstr "Revise los datos introducidos:"
+
+#: includes/class-edu-consent-form.php:321
+msgid "Ihre Entscheidungen"
+msgstr "Sus decisiones"
+
+#: includes/class-edu-consent-form.php:333
+#: includes/class-edu-consent-form.php:363
+msgid "Einwilligung erteilen"
+msgstr "Conceder consentimiento"
+
+#: includes/class-edu-consent-form.php:334
+#: includes/class-edu-consent-form.php:363
+msgid "Einwilligung verweigern"
+msgstr "Denegar consentimiento"
+
+#: includes/class-edu-consent-form.php:339
+msgid "Ich habe den Wortlaut der gewählten Einwilligungen gelesen."
+msgstr "He leído el texto literal de los consentimientos seleccionados."
+
+#: includes/class-edu-consent-form.php:343
+msgid "Website"
+msgstr "Sitio web"
+
+#: includes/class-edu-consent-form.php:344
+msgid "Angaben absenden"
+msgstr "Enviar datos"
+
+#: includes/class-edu-consent-form.php:350
+#: includes/class-edu-consent-form.php:369
+msgid "Angaben bestätigen"
+msgstr "Confirmar datos"
+
+#. translators: %s: pupil ID.
+#: includes/class-edu-consent-form.php:357
+#, php-format
+msgid ""
+"Für die Schüler-ID %s wurden folgende Angaben gemacht. Mit Ihrer Bestätigung "
+"werden sie im Einwilligungsregister der Schule erfasst."
+msgstr ""
+"Para el ID de alumno %s se han indicado las siguientes decisiones. Al "
+"confirmarlas quedarán anotadas en el registro del centro."
+
+#: includes/class-edu-consent-form.php:368
+msgid "Ich habe den Wortlaut gelesen und bestätige diese Angaben."
+msgstr "He leído el texto literal y confirmo estos datos."
+
+#: includes/class-edu-consent-form.php:375
+#: includes/class-edu-consent-form.php:393
+msgid "Einwilligungen widerrufen"
+msgstr "Revocar consentimientos"
+
+#. translators: %s: pupil ID.
+#: includes/class-edu-consent-form.php:383
+#, php-format
+msgid ""
+"Für die Schüler-ID %s können Sie folgende erteilte Einwilligungen "
+"widerrufen. Der Widerruf wird im Einwilligungsregister der Schule erfasst."
+msgstr ""
+"Para el ID de alumno %s puede revocar los siguientes consentimientos "
+"concedidos. La revocación se anotará en el registro del centro."
+
+#: includes/class-edu-consent-requests.php:178
+msgid "erteilen"
+msgstr "conceder"
+
+#: includes/class-edu-consent-requests.php:178
+msgid "verweigern"
+msgstr "denegar"
+
+#. translators: 1: site name, 2: pupil ID, 3: list of decisions, 4: validity in hours, 5: confirmation link.
+#: includes/class-edu-consent-requests.php:182
+#, php-format
+msgid ""
+"Guten Tag,\n"
+"\n"
+"über das Einwilligungsformular von %1$s wurden für die Schüler-ID %2$s "
+"folgende Angaben gemacht:\n"
+"\n"
+"%3$s\n"
+"\n"
+"Erfasst werden diese Angaben erst, wenn Sie sie über den folgenden Link "
+"bestätigen. Der Link ist %4$d Stunden gültig und kann einmal verwendet "
+"werden:\n"
+"\n"
+"%5$s\n"
+"\n"
+"Wenn Sie diese Angaben nicht gemacht haben, müssen Sie nichts tun: Ohne "
+"Bestätigung wird nichts erfasst."
+msgstr ""
+"Buenos días:\n"
+"\n"
+"A través del formulario de consentimiento de %1$s se han indicado para el ID "
+"de alumno %2$s los siguientes datos:\n"
+"\n"
+"%3$s\n"
+"\n"
+"Estos datos solo se registran cuando los confirma en el siguiente enlace. El "
+"enlace es válido durante %4$d horas y puede usarse una sola vez:\n"
+"\n"
+"%5$s\n"
+"\n"
+"Si usted no realizó este envío, no tiene que hacer nada: sin confirmación no "
+"se registra nada."
+
+#. translators: %s: site name.
+#: includes/class-edu-consent-requests.php:190
+#, php-format
+msgid "[%s] Bitte bestätigen Sie Ihre Angaben zur Einwilligung"
+msgstr "[%s] Confirme sus datos de consentimiento"
+
+#. translators: 1: pupil ID, 2: date and time, 3: site name, 4: list of decisions.
+#: includes/class-edu-consent-requests.php:308
+#, php-format
+msgid ""
+"Guten Tag,\n"
+"\n"
+"für die Schüler-ID %1$s wurden am %2$s folgende Entscheidungen im "
+"Einwilligungsregister von %3$s erfasst:\n"
+"\n"
+"%4$s"
+msgstr ""
+"Buenos días:\n"
+"\n"
+"Para el ID de alumno %1$s se registraron el %2$s las siguientes decisiones "
+"en el registro de consentimientos de %3$s:\n"
+"\n"
+"%4$s"
+
+#. translators: %s: revocation link.
+#: includes/class-edu-consent-requests.php:317
+#, php-format
+msgid ""
+"Erteilte Einwilligungen können Sie jederzeit über diesen Link widerrufen:\n"
+"\n"
+"%s"
+msgstr ""
+"Puede revocar en cualquier momento los consentimientos concedidos mediante "
+"este enlace:\n"
+"\n"
+"%s"
+
+#. translators: %s: site name.
+#: includes/class-edu-consent-requests.php:322
+#, php-format
+msgid "[%s] Ihre Angaben zur Einwilligung wurden erfasst"
+msgstr "[%s] Sus datos de consentimiento han sido registrados"
+
+#. translators: 1: pupil ID, 2: date and time, 3: site name, 4: list of consent types.
+#: includes/class-edu-consent-requests.php:395
+#, php-format
+msgid ""
+"Guten Tag,\n"
+"\n"
+"für die Schüler-ID %1$s wurde am %2$s der Widerruf folgender Einwilligungen "
+"im Einwilligungsregister von %3$s erfasst:\n"
+"\n"
+"%4$s"
+msgstr ""
+"Buenos días:\n"
+"\n"
+"Para el ID de alumno %1$s se registró el %2$s la revocación de los "
+"siguientes consentimientos en el registro de %3$s:\n"
+"\n"
+"%4$s"
+
+#. translators: %s: site name.
+#: includes/class-edu-consent-requests.php:402
+#, php-format
+msgid "[%s] Ihr Widerruf wurde erfasst"
+msgstr "[%s] Su revocación ha sido registrada"
+
+#: includes/class-edu-ecosystem.php:34 includes/class-edu-ecosystem.php:44
+msgid "Einwilligungsregister-Status"
+msgstr "Estado del registro de consentimientos"
+
+#: includes/class-edu-ecosystem.php:78
+msgid "Einwilligung erteilt"
+msgstr "Consentimiento concedido"
+
+#: includes/class-edu-ecosystem.php:79 includes/class-edu-ecosystem.php:93
+msgid "Register nicht prüfbar"
+msgstr "Registro no verificable"
+
+#: includes/class-edu-ecosystem.php:80
+msgid "Kein aktiver Einwilligungsnachweis"
+msgstr "Sin consentimiento activo"
+
+#: includes/class-edu-ecosystem.php:92
+msgid "Einwilligungsregister aktiv"
+msgstr "Registro de consentimientos activo"
+
+#. translators: %s: parameter name.
+#: includes/class-edu-rest-controller.php:97
+#, php-format
+msgid "%s muss ein Text in gültigem UTF-8 sein."
+msgstr "%s debe ser un texto en UTF-8 válido."
+
+#. translators: %s: parameter name.
+#: includes/class-edu-rest-controller.php:124
+#, php-format
+msgid ""
+"%s muss ein Objekt mit Texten als Werten sein, zum Beispiel {\"Max Müller\": "
+"\"\"}."
+msgstr ""
+"%s debe ser un objeto con valores de texto, por ejemplo {\"Max Müller\": "
+"\"\"}."
+
+#: includes/class-edu-rest-controller.php:148
+msgid "Der Text konnte nicht pseudonymisiert werden."
+msgstr "No se pudo seudonimizar el texto."
+
+#: includes/class-edu-shortcodes.php:70
+msgid ""
+"Diese Demo steht angemeldeten Benutzern mit der nötigen Berechtigung offen. "
+"Wer sie benutzen kann, kann auch das Token eines geratenen Datums berechnen."
+msgstr ""
+"Esta demostración está abierta a usuarios identificados con el permiso "
+"necesario. Quien puede usarla también puede calcular el token de una fecha "
+"supuesta."
+
+#: includes/class-edu-shortcodes.php:75
+msgid "Pseudonymisierung vor der Übergabe an KI-Dienste"
+msgstr "Seudonimización previa al envío a servicios de IA"
+
+#: includes/class-edu-shortcodes.php:76
+msgid ""
+"Ersetzt Datumsangaben wie Geburtsdaten und Klassenbezeichnungen durch "
+"Platzhalter, bevor ein Text an ein KI-Modell geht. Schülernamen werden nur "
+"ersetzt, wenn die Namensliste der Schule als known_students an die REST-"
+"Route wm-edu/v1/tokenize übergeben wird."
+msgstr ""
+"Sustituye fechas como fechas de nacimiento e identificadores de clase por "
+"marcadores antes de enviar un texto a un modelo de IA. Los nombres de "
+"alumnos solo se sustituyen si se pasa la lista del centro como "
+"known_students a la ruta REST wm-edu/v1/tokenize."
+
+#: includes/class-edu-shortcodes.php:78
+msgid "Text mit Schülerdaten"
+msgstr "Texto con datos del alumnado"
+
+#: includes/class-edu-shortcodes.php:78
+msgid ""
+"Max Müller (geb. 15.03.2012) aus Klasse 9b hat im Aufsatz eine hervorragende "
+"Leistung erbracht."
+msgstr ""
+"Max Müller (nac. 15.03.2012) de Klasse 9b obtuvo un resultado sobresaliente "
+"en la redacción."
+
+#: includes/class-edu-shortcodes.php:79
+msgid "Text pseudonymisieren"
+msgstr "Seudonimizar texto"
+
+#: includes/class-edu-shortcodes.php:97
+msgid "Der Text konnte nicht verarbeitet werden: er ist kein gültiges UTF-8."
+msgstr "No se pudo procesar el texto: no es UTF-8 válido."
+
+#. translators: %d: number of replaced dates and class identifiers.
+#: includes/class-edu-shortcodes.php:102
+#, php-format
+msgid "Pseudonymisierter Text (%d Datum oder Klassenbezeichnung ersetzt)"
+msgid_plural ""
+"Pseudonymisierter Text (%d Datumsangaben oder Klassenbezeichnungen ersetzt)"
+msgstr[0] "Texto seudonimizado (%d fecha o identificador de clase sustituido)"
+msgstr[1] ""
+"Texto seudonimizado (%d fechas o identificadores de clase sustituidos)"
+
+#: includes/class-edu-shortcodes.php:107
+msgid ""
+"Hinweis: Schülernamen werden nur pseudonymisiert, wenn die Schülerliste der "
+"Schule als known_students an die REST-Route wm-edu/v1/tokenize übergeben "
+"wird. Diese Demo ersetzt Datumsangaben und Klassenbezeichnungen."
+msgstr ""
+"Nota: los nombres de alumnos solo se seudonimizan cuando la lista del centro "
+"se envía como known_students a la ruta REST wm-edu/v1/tokenize. Esta "
+"demostración sustituye fechas e identificadores de clase."
+
+#: includes/class-edu-shortcodes.php:125
+msgid "Zur Anmeldung"
+msgstr "Iniciar sesión"
+
+#: includes/class-edu-shortcodes.php:143 includes/class-edu-shortcodes.php:153
+#: includes/class-edu-shortcodes.php:154
+msgid "Eltern-Einwilligung prüfen"
+msgstr "Comprobar consentimiento parental"
+
+#: includes/class-edu-shortcodes.php:145
+msgid ""
+"Diese Abfrage steht angemeldeten Benutzern mit der nötigen Berechtigung "
+"offen. Sie gibt preis, ob für eine Schüler-ID eine Einwilligung vorliegt."
+msgstr ""
+"Esta consulta está reservada a usuarios identificados con el permiso "
+"requerido. Revela si consta consentimiento para un ID de alumno."
+
+#: includes/class-edu-shortcodes.php:155
+msgid ""
+"Zeigt den letzten Eintrag im Einwilligungsregister dieser Website für eine "
+"Schüler-ID, gleich welcher Einwilligungsart. Solange die Signaturkette des "
+"Registers nicht vollständig geprüft werden kann, wird keine Einwilligung "
+"angezeigt."
+msgstr ""
+"Muestra la última entrada del registro de consentimientos de este sitio para "
+"un ID de alumno, de cualquier tipo. Mientras la cadena de firmas no pueda "
+"verificarse íntegramente, no se muestra ningún consentimiento."
+
+#. translators: %s: label of the consent type the shortcode asks about.
+#: includes/class-edu-shortcodes.php:160
+#, php-format
+msgid "Geprüft wird nur die Einwilligungsart: %s"
+msgstr "Solo se comprueba el tipo de consentimiento: %s"
+
+#: includes/class-edu-shortcodes.php:167
+msgid "Schüler-ID / Token"
+msgstr "ID de alumno / Token"
+
+#: includes/class-edu-shortcodes.php:168
+msgid "Einwilligung prüfen"
+msgstr "Comprobar consentimiento"
+
+#: includes/class-edu-shortcodes.php:178
+msgid ""
+"Die Sicherheitsprüfung ist fehlgeschlagen. Bitte laden Sie die Seite neu und "
+"versuchen Sie es erneut."
+msgstr ""
+"La comprobación de seguridad ha fallado. Recargue la página e inténtelo de "
+"nuevo."
+
+#. translators: %s: pupil token.
+#: includes/class-edu-shortcodes.php:186
+#, php-format
+msgid ""
+"GÜLTIGE EINWILLIGUNG: Für %s ist als letzter Eintrag im Register eine "
+"erteilte Einwilligung erfasst."
+msgstr ""
+"CONSENTIMIENTO VÁLIDO: Para %s consta como última entrada del registro un "
+"consentimiento concedido."
+
+#: includes/class-edu-shortcodes.php:188
+msgid ""
+"REGISTER NICHT PRÜFBAR: Die Einwilligungstabelle fehlt oder ihre "
+"Signaturkette ist unterbrochen; es wird keine Einwilligung angezeigt."
+msgstr ""
+"REGISTRO NO VERIFICABLE: Falta la tabla de consentimientos o su cadena de "
+"firmas está rota; no se muestra ningún consentimiento."
+
+#. translators: %s: pupil token.
+#: includes/class-edu-shortcodes.php:191
+#, php-format
+msgid ""
+"KEIN NACHWEIS: Für %s liegt kein aktiver Einwilligungsnachweis vor oder er "
+"wurde widerrufen."
+msgstr ""
+"SIN CONSTANCIA: Para %s no existe ningún consentimiento activo o ha sido "
+"revocado."
+
+#. translators: %s: action name.
+#: includes/class-edu-spoke-adapter.php:134
+#, php-format
+msgid "Unbekannte Spoke-Aktion \"%s\"."
+msgstr "Acción de spoke desconocida \"%s\"."
+
+#: includes/class-edu-spoke-adapter.php:142
+msgid "Die Pseudonymisierung liefert abweichende Werte."
+msgstr "La seudonimización devuelve valores discrepantes."
+
+#: includes/class-edu-spoke-adapter.php:145
+msgid "Die Pseudonymisierung ist abgebrochen."
+msgstr "La seudonimización se ha interrumpido."
+
+#: includes/class-edu-spoke-adapter.php:156
+msgid "Selbsttest fehlgeschlagen:"
+msgstr "Autocomprobación fallida:"
+
+#. translators: 1: rows verified, 2: rows in the ledger.
+#: includes/class-edu-spoke-adapter.php:162
+#, php-format
+msgid ""
+"Pseudonymisierung ersetzt Namen, Klasse und Datum; Einwilligungskette gültig "
+"(%1$d von %2$d Einträgen geprüft)."
+msgstr ""
+"La seudonimización sustituye nombres, clase y fecha; cadena de "
+"consentimientos válida (%1$d de %2$d entradas verificadas)."
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

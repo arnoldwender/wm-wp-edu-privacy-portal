@@ -1,0 +1,1044 @@
+# Translation of wm-edu-privacy-portal in sl_SI
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-edu-privacy-portal 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-edu-privacy-"
+"portal\n"
+"POT-Creation-Date: 2026-11-25T00:05:41+00:00\n"
+"PO-Revision-Date: 2026-11-21 18:10+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-edu-privacy-"
+"portal/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-edu-privacy-"
+"portal/issues>\n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-edu-privacy-portal\n"
+
+#. Plugin Name of the plugin
+#: wm-edu-privacy-portal.php
+msgid "WM Edu Privacy Portal"
+msgstr "WM Edu Privacy Portal"
+
+#. Plugin URI of the plugin
+#: wm-edu-privacy-portal.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-edu-privacy-portal/"
+msgstr ""
+
+#. Description of the plugin
+#: wm-edu-privacy-portal.php
+msgid ""
+"Ersetzt Datumsangaben, Klassenbezeichnungen und übergebene Schülernamen "
+"durch Platzhalter, bevor Text die Website verlässt, und prüft Eltern-"
+"Einwilligungen gegen ein hash-verkettetes Register."
+msgstr ""
+"Nadomesti datume, oznake oddelkov in posredovana imena učencev z "
+"nadomestnimi oznakami, preden besedilo zapusti spletno mesto, ter preverja "
+"soglasja staršev v zgoščevalno veriženem registru."
+
+#. Author of the plugin
+#: wm-edu-privacy-portal.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-edu-privacy-portal.php
+msgid "https://arnoldwender.com"
+msgstr ""
+
+#: includes/class-edu-access.php:96
+msgid ""
+"Diese Route setzt eine Anmeldung voraus. Cookie-Anmeldungen benötigen "
+"zusätzlich den REST-Nonce X-WP-Nonce."
+msgstr ""
+"Ta pot zahteva prijavo. Seje s piškotki dodatno zahtevajo žeton REST X-WP-"
+"Nonce."
+
+#: includes/class-edu-access.php:99
+msgid "Für diese Route fehlt die Berechtigung."
+msgstr "Za to pot nimate dovoljenja."
+
+#: includes/class-edu-admin.php:60 includes/class-edu-admin.php:389
+msgid "Einwilligungen"
+msgstr "Soglasja"
+
+#: includes/class-edu-admin.php:61
+msgid "Übersicht"
+msgstr "Pregled"
+
+#: includes/class-edu-admin.php:62 includes/class-edu-admin.php:455
+msgid "Erfassen"
+msgstr "Zabeleži"
+
+#: includes/class-edu-admin.php:63 includes/class-edu-admin.php:503
+msgid "Einwilligungsarten"
+msgstr "Vrste soglasij"
+
+#: includes/class-edu-admin.php:64 includes/class-edu-admin.php:537
+msgid "Erziehungsberechtigte"
+msgstr "Starši / skrbniki"
+
+#: includes/class-edu-admin.php:65 includes/class-edu-admin.php:580
+msgid "Einstellungen"
+msgstr "Nastavitve"
+
+#: includes/class-edu-admin.php:244
+msgid "Sie haben keine Berechtigung für diese Aktion."
+msgstr "Nimate dovoljenja za to dejanje."
+
+#: includes/class-edu-admin.php:314
+msgid "Die Einwilligung wurde erfasst."
+msgstr "Soglasje je bilo zabeleženo."
+
+#: includes/class-edu-admin.php:315
+msgid "Der Widerruf wurde erfasst."
+msgstr "Preklic je bil zabeležen."
+
+#: includes/class-edu-admin.php:316
+msgid "Die Einwilligungsart wurde angelegt."
+msgstr "Vrsta soglasja je bila ustvarjena."
+
+#: includes/class-edu-admin.php:317
+msgid "Die Einwilligungsart wurde gespeichert."
+msgstr "Vrsta soglasja je bila shranjena."
+
+#: includes/class-edu-admin.php:318
+msgid "Die Zuordnung wurde gespeichert."
+msgstr "Dodelitev je bila shranjena."
+
+#: includes/class-edu-admin.php:319
+msgid "Die Zuordnung wurde entfernt."
+msgstr "Dodelitev je bila odstranjena."
+
+#: includes/class-edu-admin.php:320
+msgid "Die Zuordnungen wurden übernommen."
+msgstr "Dodelitve so bile uvožene."
+
+#: includes/class-edu-admin.php:321
+msgid "Die Einstellungen wurden gespeichert."
+msgstr "Nastavitve so bile shranjene."
+
+#: includes/class-edu-admin.php:324
+msgid ""
+"Die Angaben sind unvollständig: Schüler-ID, E-Mail-Adresse, Art, Status und "
+"Begründung werden benötigt."
+msgstr ""
+"Podatki so nepopolni: zahtevani so ID učenca, e-poštni naslov, vrsta, stanje "
+"in utemeljitev."
+
+#: includes/class-edu-admin.php:325
+msgid ""
+"Für diese Schüler-ID und Art gibt es keinen Eintrag, der widerrufen werden "
+"könnte."
+msgstr "Za ta ID učenca in vrsto ni vnosa, ki bi ga bilo mogoče preklicati."
+
+#: includes/class-edu-admin.php:326
+msgid "Diese Einwilligungsart gibt es nicht."
+msgstr "Ta vrsta soglasja ne obstaja."
+
+#: includes/class-edu-admin.php:327
+msgid "Dieser Status ist nicht zulässig."
+msgstr "To stanje ni dovoljeno."
+
+#: includes/class-edu-admin.php:328
+msgid "Diese Kennung ist bereits vergeben."
+msgstr "Ta oznaka je že dodeljena."
+
+#: includes/class-edu-admin.php:329
+msgid ""
+"Kennung, Bezeichnung und Wortlaut werden benötigt; die Kennung besteht aus "
+"Großbuchstaben, Ziffern, \"_\" und \"-\"."
+msgstr ""
+"Zahtevani so oznaka, naziv in besedilo; oznaka vsebuje velike črke, števke, "
+"\"_\" in \"-\"."
+
+#: includes/class-edu-admin.php:330
+msgid "Diese Zuordnung gibt es bereits."
+msgstr "Ta dodelitev že obstaja."
+
+#: includes/class-edu-admin.php:331
+msgid "Schüler-ID oder E-Mail-Adresse sind nicht gültig."
+msgstr "ID učenca ali e-poštni naslov ni veljaven."
+
+#: includes/class-edu-admin.php:332
+msgid "Diese Zuordnung gibt es nicht."
+msgstr "Ta dodelitev ne obstaja."
+
+#: includes/class-edu-admin.php:333
+msgid "Einige Zeilen konnten nicht gelesen werden; der Rest wurde übernommen."
+msgstr "Nekaterih vrstic ni bilo mogoče prebrati; preostale so bile uvožene."
+
+#: includes/class-edu-admin.php:334
+msgid "Es wurde keine Zuordnung übernommen."
+msgstr "Nobena dodelitev ni bila uvožena."
+
+#: includes/class-edu-admin.php:335
+msgid "Das Register war gesperrt. Bitte in einigen Minuten erneut versuchen."
+msgstr "Register je bil zaklenjen. Poskusite znova čez nekaj minut."
+
+#: includes/class-edu-admin.php:336
+msgid "Die Einwilligungstabelle fehlt."
+msgstr "Tabela soglasij manjka."
+
+#: includes/class-edu-admin.php:337
+msgid "Der Eintrag konnte nicht gespeichert werden."
+msgstr "Vnosa ni bilo mogoče shraniti."
+
+#. translators: 1: rows verified, 2: schema-1 rows among them.
+#: includes/class-edu-admin.php:355
+#, php-format
+msgid "Signaturkette geprüft: %1$d Einträge, davon %2$d aus Schema 1."
+msgstr "Veriga podpisov preverjena: %1$d vnosov, od tega %2$d iz sheme 1."
+
+#: includes/class-edu-admin.php:362
+msgid "Das Register ist nicht prüfbar:"
+msgstr "Registra ni mogoče preveriti:"
+
+#: includes/class-edu-admin.php:363
+msgid "Solange das so ist, zeigt die Abfrage im Portal keine Einwilligung an."
+msgstr "Dokler je tako, poizvedba na portalu ne prikaže nobenega soglasja."
+
+#: includes/class-edu-admin.php:368 includes/class-edu-consent-requests.php:304
+msgid "erteilt"
+msgstr "podano"
+
+#: includes/class-edu-admin.php:369
+msgid "widerrufen"
+msgstr "preklicano"
+
+#: includes/class-edu-admin.php:370 includes/class-edu-consent-requests.php:304
+msgid "verweigert"
+msgstr "zavrnjeno"
+
+#: includes/class-edu-admin.php:377
+msgid "Bestätigung der Erziehungsberechtigten"
+msgstr "Potrditev staršev/skrbnikov"
+
+#: includes/class-edu-admin.php:378
+msgid "Widerrufslink"
+msgstr "Povezava za preklic"
+
+#: includes/class-edu-admin.php:379
+msgid "Erfassung im Backend"
+msgstr "Vnos v skrbništvu"
+
+#: includes/class-edu-admin.php:380
+msgid "Widerruf im Backend"
+msgstr "Preklic v skrbništvu"
+
+#: includes/class-edu-admin.php:381
+msgid "Programmaufruf"
+msgstr "Programski klic"
+
+#: includes/class-edu-admin.php:383
+msgid "unbekannt (Schema 2)"
+msgstr "neznano (shema 2)"
+
+#: includes/class-edu-admin.php:394 includes/class-edu-admin.php:420
+#: includes/class-edu-admin.php:459 includes/class-edu-admin.php:482
+#: includes/class-edu-admin.php:542 includes/class-edu-admin.php:563
+#: includes/class-edu-consent-form.php:314
+msgid "Schüler-ID"
+msgstr "ID učenca"
+
+#: includes/class-edu-admin.php:396
+msgid "Verlauf anzeigen"
+msgstr "Prikaži zgodovino"
+
+#: includes/class-edu-admin.php:398
+msgid "Register als CSV exportieren"
+msgstr "Izvozi register kot CSV"
+
+#: includes/class-edu-admin.php:402
+msgid "Aktueller Stand je Schüler-ID und Art"
+msgstr "Trenutno stanje glede na ID učenca in vrsto"
+
+#. translators: %s: pupil ID.
+#: includes/class-edu-admin.php:404
+#, php-format
+msgid "Verlauf für %s"
+msgstr "Zgodovina za %s"
+
+#: includes/class-edu-admin.php:415
+msgid "Keine Einträge."
+msgstr "Ni vnosov."
+
+#: includes/class-edu-admin.php:419
+msgid "Zeit (UTC)"
+msgstr "Čas (UTC)"
+
+#: includes/class-edu-admin.php:421
+msgid "Art"
+msgstr "Vrsta"
+
+#: includes/class-edu-admin.php:422 includes/class-edu-admin.php:466
+msgid "Status"
+msgstr "Stanje"
+
+#: includes/class-edu-admin.php:423
+msgid "E-Mail"
+msgstr "E-pošta"
+
+#: includes/class-edu-admin.php:424
+msgid "Herkunft"
+msgstr "Izvor"
+
+#: includes/class-edu-admin.php:425 includes/class-edu-admin.php:471
+#: includes/class-edu-admin.php:488
+msgid "Begründung"
+msgstr "Utemeljitev"
+
+#: includes/class-edu-admin.php:426 includes/class-edu-admin.php:529
+msgid "Wortlaut"
+msgstr "Besedilo"
+
+#: includes/class-edu-admin.php:439
+msgid "aktueller Wortlaut"
+msgstr "veljavno besedilo"
+
+#: includes/class-edu-admin.php:439
+msgid "seit der Erteilung geändert"
+msgstr "spremenjeno po podaji"
+
+#: includes/class-edu-admin.php:444
+msgid "Widerrufen und Nacherfassen: über die Seite „Erfassen“."
+msgstr "Preklici in ročni vnosi: prek strani »Zabeleži«."
+
+#: includes/class-edu-admin.php:449
+msgid "Einwilligung erfassen oder widerrufen"
+msgstr "Zabeleži ali prekliči soglasje"
+
+#: includes/class-edu-admin.php:452
+msgid ""
+"Für Fälle außerhalb des Formulars: eine auf Papier erteilte Einwilligung "
+"nachtragen oder einen telefonisch erklärten Widerruf erfassen. Jeder Eintrag "
+"wird mit Ihrem Benutzerkonto und Ihrer Begründung signiert."
+msgstr ""
+"Za primere zunaj obrazca: vnos pisnega soglasja ali telefonskega preklica. "
+"Vsak vnos je podpisan z vašim računom in utemeljitvijo."
+
+#: includes/class-edu-admin.php:460
+msgid "E-Mail-Adresse der Erziehungsberechtigten"
+msgstr "E-poštni naslov staršev/skrbnikov"
+
+#: includes/class-edu-admin.php:461 includes/class-edu-admin.php:483
+msgid "Einwilligungsart"
+msgstr "Vrsta soglasja"
+
+#: includes/class-edu-admin.php:472
+msgid ""
+"Woher der Eintrag stammt, zum Beispiel: unterschriebenes Formular vom "
+"12.09.2026, im Sekretariat abgelegt."
+msgstr "Izvor vnosa, npr.: podpisan obrazec z dne 12.09.2026 v tajništvu."
+
+#: includes/class-edu-admin.php:474
+msgid "Eintrag erfassen"
+msgstr "Shrani vnos"
+
+#: includes/class-edu-admin.php:477
+msgid "Widerrufen"
+msgstr "Prekliči"
+
+#: includes/class-edu-admin.php:478
+msgid ""
+"Trägt einen Widerruf für den letzten Eintrag dieser Schüler-ID und Art ein; "
+"E-Mail-Adresse und Wortlaut werden aus diesem Eintrag übernommen."
+msgstr ""
+"Zabeleži preklic za zadnji vnos tega ID-ja učenca in vrste; e-pošta in "
+"besedilo se prevzameta iz tega vnosa."
+
+#: includes/class-edu-admin.php:490
+msgid "Widerruf erfassen"
+msgstr "Shrani preklic"
+
+#: includes/class-edu-admin.php:505
+msgid ""
+"Der Wortlaut ist das, wozu die Erziehungsberechtigten einwilligen; sein "
+"SHA-256 wird mit jeder Einwilligung gespeichert. Ein geänderter Wortlaut "
+"gilt für neue Anfragen; frühere Einträge behalten ihren. Arten werden nicht "
+"gelöscht, sondern deaktiviert."
+msgstr ""
+"Besedilo je natančna vsebina, s katero starši soglašajo; njegov SHA-256 se "
+"shrani ob vsakem vnosu. Sprememba velja za nove vloge, starejše ohranijo "
+"svoje besedilo. Vrste se deaktivirajo in ne brišejo."
+
+#: includes/class-edu-admin.php:507 includes/class-edu-admin.php:527
+msgid "Bezeichnung"
+msgstr "Naziv"
+
+#: includes/class-edu-admin.php:507 includes/class-edu-admin.php:522
+#: includes/class-edu-admin.php:525
+msgid "Kennung"
+msgstr "Oznaka"
+
+#: includes/class-edu-admin.php:507 includes/class-edu-admin.php:530
+msgid "Aktiv"
+msgstr "Aktivno"
+
+#: includes/class-edu-admin.php:507
+msgid "Wortlaut-Hash"
+msgstr "Zgoščena vrednost besedila"
+
+#: includes/class-edu-admin.php:507 includes/class-edu-admin.php:512
+msgid "Bearbeiten"
+msgstr "Uredi"
+
+#: includes/class-edu-admin.php:510
+msgid "ja"
+msgstr "da"
+
+#: includes/class-edu-admin.php:510
+msgid "nein"
+msgstr "ne"
+
+#: includes/class-edu-admin.php:516
+msgid "Neue Einwilligungsart"
+msgstr "Nova vrsta soglasja"
+
+#: includes/class-edu-admin.php:516
+msgid "Einwilligungsart bearbeiten"
+msgstr "Uredi vrsto soglasja"
+
+#: includes/class-edu-admin.php:523
+msgid ""
+"Wird im Register gespeichert und kann später nicht geändert werden, zum "
+"Beispiel FAHRT_2026."
+msgstr ""
+"Shrani se v register in je pozneje ni mogoče spremeniti, npr. FAHRT_2026."
+
+#: includes/class-edu-admin.php:528
+msgid "Beschreibung"
+msgstr "Opis"
+
+#: includes/class-edu-admin.php:530
+msgid "Im Formular für Erziehungsberechtigte anbieten"
+msgstr "Ponudi v obrazcu za starše/skrbnike"
+
+#: includes/class-edu-admin.php:532
+msgid "Anlegen"
+msgstr "Ustvari"
+
+#: includes/class-edu-admin.php:532
+msgid "Speichern"
+msgstr "Shrani"
+
+#: includes/class-edu-admin.php:539
+msgid ""
+"Das Formular schickt nur dann einen Bestätigungslink, wenn Schüler-ID und E-"
+"Mail-Adresse hier zusammen hinterlegt sind. Gespeichert wird die Adresse "
+"nicht im Klartext, sondern als HMAC; sie lässt sich prüfen, aber nicht "
+"auslesen. Deshalb zeigt die Liste nur die Anzahl der Adressen je Schüler-ID."
+msgstr ""
+"Obrazec pošlje potrditveno povezavo le, če sta ID učenca in e-poštni naslov "
+"tukaj shranjena skupaj. Naslov se hrani kot HMAC in ga ni mogoče prebrati; "
+"seznam prikazuje le število naslovov na ID učenca."
+
+#: includes/class-edu-admin.php:542
+msgid "Hinterlegte Adressen"
+msgstr "Shranjeni naslovi"
+
+#: includes/class-edu-admin.php:547
+msgid "Keine Zuordnungen hinterlegt."
+msgstr "Ni shranjenih dodelitev."
+
+#: includes/class-edu-admin.php:551
+msgid "Zuordnungen hinzufügen"
+msgstr "Dodaj dodelitve"
+
+#: includes/class-edu-admin.php:554
+msgid ""
+"Eine Zuordnung je Zeile: Schüler-ID und E-Mail-Adresse, getrennt durch "
+"Semikolon, Komma oder Tabulator."
+msgstr ""
+"Ena dodelitev na vrstico: ID učenca in e-poštni naslov, ločena s podpičjem, "
+"vejico ali tabulatorjem."
+
+#: includes/class-edu-admin.php:556
+msgid "Zuordnungen übernehmen"
+msgstr "Uvozi dodelitve"
+
+#: includes/class-edu-admin.php:559 includes/class-edu-admin.php:566
+msgid "Zuordnung entfernen"
+msgstr "Odstrani dodelitev"
+
+#: includes/class-edu-admin.php:564 includes/class-edu-consent-form.php:317
+msgid "E-Mail-Adresse"
+msgstr "E-poštni naslov"
+
+#: includes/class-edu-admin.php:572
+msgid "Alle Adressen einer Schüler-ID entfernen"
+msgstr "Odstrani vse naslove za ID učenca"
+
+#: includes/class-edu-admin.php:574
+msgid "Alle Adressen entfernen"
+msgstr "Odstrani vse naslove"
+
+#: includes/class-edu-admin.php:584
+msgid "Zugang"
+msgstr "Dostop"
+
+#: includes/class-edu-admin.php:585
+msgid "Abfrage im Portal"
+msgstr "Poizvedba na portalu"
+
+#: includes/class-edu-admin.php:586
+msgid ""
+"Öffentlich zugänglich machen (wie vor Version mit Zugriffsschutz). Dann kann "
+"jede Person mit einer Schüler-ID erfahren, ob eine Einwilligung vorliegt."
+msgstr ""
+"Omogoči javni dostop (kot pred zaščito dostopa). Vsakdo z ID-jem učenca "
+"lahko nato preveri obstoj soglasja."
+
+#: includes/class-edu-admin.php:587 includes/class-edu-shortcodes.php:68
+#: includes/class-edu-shortcodes.php:74
+msgid "Pseudonymisierung"
+msgstr "Psevdonimizacija"
+
+#: includes/class-edu-admin.php:588
+msgid ""
+"REST-Routen und Demo öffentlich zugänglich machen. Dann kann jede Person das "
+"Token eines geratenen Namens oder Datums berechnen."
+msgstr ""
+"Omogoči javni dostop do poti REST in predstavitve. Vsakdo lahko nato "
+"izračuna žeton ugibanega imena ali datuma."
+
+#: includes/class-edu-admin.php:589
+msgid "Rollen für die Abfrage"
+msgstr "Vloge za poizvedbo"
+
+#: includes/class-edu-admin.php:593
+msgid "Zusätzlich zu Benutzern mit der Berechtigung „manage_edu_consents“."
+msgstr "Poleg uporabnikov s pravico »manage_edu_consents«."
+
+#: includes/class-edu-admin.php:596
+msgid "Formular für Erziehungsberechtigte"
+msgstr "Obrazec za starše/skrbnike"
+
+#: includes/class-edu-admin.php:597
+msgid "Gültigkeit des Bestätigungslinks (Stunden)"
+msgstr "Veljavnost potrditvene povezave (ure)"
+
+#: includes/class-edu-admin.php:598
+msgid "Anfragedaten löschen (Tage nach Ablauf)"
+msgstr "Izbriši podatke vlog (dni po poteku)"
+
+#: includes/class-edu-admin.php:599
+msgid "Anfragen je IP und Stunde"
+msgstr "Vlog na IP na uro"
+
+#: includes/class-edu-admin.php:600
+msgid "Anfragen je E-Mail-Adresse und Stunde"
+msgstr "Vlog na e-poštni naslov na uro"
+
+#: includes/class-edu-admin.php:602
+msgid ""
+"Erfasste Einwilligungen werden im laufenden Betrieb nie gelöscht; die "
+"Aufbewahrungsfrist gilt nur für Anfragen, die nicht bestätigt wurden, und "
+"für abgeschlossene Widerrufslinks."
+msgstr ""
+"Zabeležena soglasja se med delovanjem nikoli ne izbrišejo; rok hrambe velja "
+"samo za nepotrjene vloge in zaključene povezave za preklic."
+
+#: includes/class-edu-admin.php:604
+msgid "Deinstallation"
+msgstr "Odstranitev"
+
+#: includes/class-edu-admin.php:605
+msgid "Daten bei Deinstallation löschen"
+msgstr "Izbriši podatke ob odstranitvi"
+
+#: includes/class-edu-admin.php:606
+msgid ""
+"Alle Einstellungen, Zuordnungen, Einwilligungsarten und das "
+"Einwilligungsregister beim Löschen des Plugins endgültig entfernen "
+"(Standard: deaktiviert — alle Daten bleiben erhalten)."
+msgstr ""
+"Trajno odstrani vse nastavitve, dodelitve, vrste soglasij in register "
+"soglasij ob izbrisu vtičnika (privzeto: izklopljeno — vsi podatki se "
+"ohranijo)."
+
+#: includes/class-edu-consent-form.php:156
+msgid ""
+"Bitte geben Sie die Schüler-ID an, die Sie von der Schule erhalten haben "
+"(höchstens 64 Zeichen)."
+msgstr "Vnesite ID učenca, ki ste ga prejeli od šole (največ 64 znakov)."
+
+#: includes/class-edu-consent-form.php:159
+msgid "Bitte geben Sie eine gültige E-Mail-Adresse an."
+msgstr "Vnesite veljaven e-poštni naslov."
+
+#: includes/class-edu-consent-form.php:175
+msgid ""
+"Bitte wählen Sie für mindestens eine Einwilligung „erteilen“ oder "
+"„verweigern“."
+msgstr "Pri vsaj enem soglasju izberite »podajam« ali »zavračam«."
+
+#: includes/class-edu-consent-form.php:178
+msgid ""
+"Bitte bestätigen Sie, dass Sie den Wortlaut der gewählten Einwilligungen "
+"gelesen haben."
+msgstr "Potrdite, da ste prebrali besedilo izbranih soglasij."
+
+#: includes/class-edu-consent-form.php:246
+msgid ""
+"Es wurden in kurzer Zeit zu viele Anfragen gesendet. Bitte versuchen Sie es "
+"in einer Stunde erneut."
+msgstr ""
+"V kratkem času je bilo poslanih preveč zahtevkov. Poskusite znova čez eno "
+"uro."
+
+#: includes/class-edu-consent-form.php:247
+msgid ""
+"Ihre Angaben konnten gerade nicht gespeichert werden. Bitte versuchen Sie es "
+"in einigen Minuten erneut; der Link bleibt gültig."
+msgstr ""
+"Vaših podatkov trenutno ni bilo mogoče shraniti. Poskusite čez nekaj minut; "
+"povezava ostaja veljavna."
+
+#: includes/class-edu-consent-form.php:248
+#: includes/class-edu-consent-form.php:352
+#: includes/class-edu-consent-form.php:378
+msgid "Dieser Link ist ungültig, abgelaufen oder wurde bereits verwendet."
+msgstr "Ta povezava ni veljavna, je potekla ali je že bila uporabljena."
+
+#: includes/class-edu-consent-form.php:249
+msgid ""
+"Ihre Angaben konnten nicht gespeichert werden. Bitte wenden Sie sich an die "
+"Schule."
+msgstr "Vaših podatkov ni bilo mogoče shraniti. Obrnite se na šolo."
+
+#: includes/class-edu-consent-form.php:250
+msgid "Bitte bestätigen Sie, dass Sie den Wortlaut gelesen haben."
+msgstr "Potrdite, da ste prebrali besedilo."
+
+#: includes/class-edu-consent-form.php:261
+msgid ""
+"Vielen Dank. Wenn die Schüler-ID und die E-Mail-Adresse zu den Angaben der "
+"Schule passen, erhalten Sie in Kürze eine E-Mail mit einem Bestätigungslink. "
+"Erst mit der Bestätigung wird Ihre Entscheidung erfasst."
+msgstr ""
+"Hvala. Če se ID učenca in e-poštni naslov ujemata s podatki šole, boste "
+"kmalu prejeli e-pošto s potrditveno povezavo. Odločitev se zabeleži šele po "
+"potrditvi."
+
+#: includes/class-edu-consent-form.php:262
+msgid ""
+"Ihre Angaben wurden erfasst. Sie erhalten eine Bestätigung per E-Mail; "
+"erteilte Einwilligungen können Sie über den Link darin jederzeit widerrufen."
+msgstr ""
+"Vaši podatki so zabeleženi. Potrdilo boste prejeli po e-pošti; podana "
+"soglasja lahko kadar koli prekličete prek povezave v sporočilu."
+
+#: includes/class-edu-consent-form.php:263
+msgid "Ihr Widerruf wurde erfasst. Sie erhalten eine Bestätigung per E-Mail."
+msgstr "Vaš preklic je zabeležen. Potrdilo boste prejeli po e-pošti."
+
+#: includes/class-edu-consent-form.php:265
+msgid "Einwilligungen der Erziehungsberechtigten"
+msgstr "Soglasja staršev/skrbnikov"
+
+#: includes/class-edu-consent-form.php:277
+msgid "Wortlaut der Einwilligung"
+msgstr "Besedilo soglasja"
+
+#: includes/class-edu-consent-form.php:290
+msgid "Einwilligungen erteilen oder verweigern"
+msgstr "Podaj ali zavrni soglasja"
+
+#: includes/class-edu-consent-form.php:292
+msgid ""
+"Derzeit können über dieses Formular keine Einwilligungen erteilt werden."
+msgstr "Trenutno prek tega obrazca ni mogoče podati soglasij."
+
+#: includes/class-edu-consent-form.php:294
+msgid ""
+"Geben Sie die Schüler-ID an, die Sie von der Schule erhalten haben, und die "
+"E-Mail-Adresse, die die Schule von Ihnen kennt. Sie erhalten eine E-Mail mit "
+"einem Bestätigungslink; erst mit der Bestätigung wird Ihre Entscheidung "
+"erfasst."
+msgstr ""
+"Vnesite ID učenca, prejet od šole, in e-poštni naslov, ki ga hrani šola. "
+"Prejeli boste e-pošto s potrditveno povezavo; odločitev bo shranjena šele po "
+"potrditvi."
+
+#: includes/class-edu-consent-form.php:305
+msgid "Bitte prüfen Sie Ihre Angaben:"
+msgstr "Preverite vnesene podatke:"
+
+#: includes/class-edu-consent-form.php:321
+msgid "Ihre Entscheidungen"
+msgstr "Vaše odločitve"
+
+#: includes/class-edu-consent-form.php:333
+#: includes/class-edu-consent-form.php:363
+msgid "Einwilligung erteilen"
+msgstr "Podaj soglasje"
+
+#: includes/class-edu-consent-form.php:334
+#: includes/class-edu-consent-form.php:363
+msgid "Einwilligung verweigern"
+msgstr "Zavrni soglasje"
+
+#: includes/class-edu-consent-form.php:339
+msgid "Ich habe den Wortlaut der gewählten Einwilligungen gelesen."
+msgstr "Prebral(a) sem besedilo izbranih soglasij."
+
+#: includes/class-edu-consent-form.php:343
+msgid "Website"
+msgstr "Spletna stran"
+
+#: includes/class-edu-consent-form.php:344
+msgid "Angaben absenden"
+msgstr "Pošlji podatke"
+
+#: includes/class-edu-consent-form.php:350
+#: includes/class-edu-consent-form.php:369
+msgid "Angaben bestätigen"
+msgstr "Potrdi podatke"
+
+#. translators: %s: pupil ID.
+#: includes/class-edu-consent-form.php:357
+#, php-format
+msgid ""
+"Für die Schüler-ID %s wurden folgende Angaben gemacht. Mit Ihrer Bestätigung "
+"werden sie im Einwilligungsregister der Schule erfasst."
+msgstr ""
+"Za ID učenca %s so bile oddane naslednje izbire. S potrditvijo bodo vpisane "
+"v register soglasij šole."
+
+#: includes/class-edu-consent-form.php:368
+msgid "Ich habe den Wortlaut gelesen und bestätige diese Angaben."
+msgstr "Prebral(a) sem besedilo in potrjujem te podatke."
+
+#: includes/class-edu-consent-form.php:375
+#: includes/class-edu-consent-form.php:393
+msgid "Einwilligungen widerrufen"
+msgstr "Prekliči soglasja"
+
+#. translators: %s: pupil ID.
+#: includes/class-edu-consent-form.php:383
+#, php-format
+msgid ""
+"Für die Schüler-ID %s können Sie folgende erteilte Einwilligungen "
+"widerrufen. Der Widerruf wird im Einwilligungsregister der Schule erfasst."
+msgstr ""
+"Za ID učenca %s lahko prekličete naslednja podana soglasja. Preklic bo "
+"vpisan v register šole."
+
+#: includes/class-edu-consent-requests.php:178
+msgid "erteilen"
+msgstr "podajam"
+
+#: includes/class-edu-consent-requests.php:178
+msgid "verweigern"
+msgstr "zavračam"
+
+#. translators: 1: site name, 2: pupil ID, 3: list of decisions, 4: validity in hours, 5: confirmation link.
+#: includes/class-edu-consent-requests.php:182
+#, php-format
+msgid ""
+"Guten Tag,\n"
+"\n"
+"über das Einwilligungsformular von %1$s wurden für die Schüler-ID %2$s "
+"folgende Angaben gemacht:\n"
+"\n"
+"%3$s\n"
+"\n"
+"Erfasst werden diese Angaben erst, wenn Sie sie über den folgenden Link "
+"bestätigen. Der Link ist %4$d Stunden gültig und kann einmal verwendet "
+"werden:\n"
+"\n"
+"%5$s\n"
+"\n"
+"Wenn Sie diese Angaben nicht gemacht haben, müssen Sie nichts tun: Ohne "
+"Bestätigung wird nichts erfasst."
+msgstr ""
+"Pozdravljeni,\n"
+"\n"
+"prek obrazca za soglasje na %1$s so bili za ID učenca %2$s oddani naslednji "
+"podatki:\n"
+"\n"
+"%3$s\n"
+"\n"
+"Podatki se zabeležijo šele po potrditvi na spodnji povezavi. Povezava velja "
+"%4$d ur in je enkratna:\n"
+"\n"
+"%5$s\n"
+"\n"
+"Če teh podatkov niste oddali vi, vam ni treba storiti ničesar: brez "
+"potrditve se nič ne zabeleži."
+
+#. translators: %s: site name.
+#: includes/class-edu-consent-requests.php:190
+#, php-format
+msgid "[%s] Bitte bestätigen Sie Ihre Angaben zur Einwilligung"
+msgstr "[%s] Potrdite svoje podatke o soglasju"
+
+#. translators: 1: pupil ID, 2: date and time, 3: site name, 4: list of decisions.
+#: includes/class-edu-consent-requests.php:308
+#, php-format
+msgid ""
+"Guten Tag,\n"
+"\n"
+"für die Schüler-ID %1$s wurden am %2$s folgende Entscheidungen im "
+"Einwilligungsregister von %3$s erfasst:\n"
+"\n"
+"%4$s"
+msgstr ""
+"Pozdravljeni,\n"
+"\n"
+"za ID učenca %1$s so bile dne %2$s v registru soglasij %3$s zabeležene "
+"naslednje odločitve:\n"
+"\n"
+"%4$s"
+
+#. translators: %s: revocation link.
+#: includes/class-edu-consent-requests.php:317
+#, php-format
+msgid ""
+"Erteilte Einwilligungen können Sie jederzeit über diesen Link widerrufen:\n"
+"\n"
+"%s"
+msgstr ""
+"Podana soglasja lahko kadar koli prekličete prek te povezave:\n"
+"\n"
+"%s"
+
+#. translators: %s: site name.
+#: includes/class-edu-consent-requests.php:322
+#, php-format
+msgid "[%s] Ihre Angaben zur Einwilligung wurden erfasst"
+msgstr "[%s] Vaši podatki o soglasju so zabeleženi"
+
+#. translators: 1: pupil ID, 2: date and time, 3: site name, 4: list of consent types.
+#: includes/class-edu-consent-requests.php:395
+#, php-format
+msgid ""
+"Guten Tag,\n"
+"\n"
+"für die Schüler-ID %1$s wurde am %2$s der Widerruf folgender Einwilligungen "
+"im Einwilligungsregister von %3$s erfasst:\n"
+"\n"
+"%4$s"
+msgstr ""
+"Pozdravljeni,\n"
+"\n"
+"za ID učenca %1$s je bil dne %2$s v registru %3$s zabeležen preklic "
+"naslednjih soglasij:\n"
+"\n"
+"%4$s"
+
+#. translators: %s: site name.
+#: includes/class-edu-consent-requests.php:402
+#, php-format
+msgid "[%s] Ihr Widerruf wurde erfasst"
+msgstr "[%s] Vaš preklic je zabeležen"
+
+#: includes/class-edu-ecosystem.php:34 includes/class-edu-ecosystem.php:44
+msgid "Einwilligungsregister-Status"
+msgstr "Stanje registra soglasij"
+
+#: includes/class-edu-ecosystem.php:78
+msgid "Einwilligung erteilt"
+msgstr "Soglasje podano"
+
+#: includes/class-edu-ecosystem.php:79 includes/class-edu-ecosystem.php:93
+msgid "Register nicht prüfbar"
+msgstr "Registra ni mogoče preveriti"
+
+#: includes/class-edu-ecosystem.php:80
+msgid "Kein aktiver Einwilligungsnachweis"
+msgstr "Ni aktivnega dokazila o soglasju"
+
+#: includes/class-edu-ecosystem.php:92
+msgid "Einwilligungsregister aktiv"
+msgstr "Register soglasij aktiven"
+
+#. translators: %s: parameter name.
+#: includes/class-edu-rest-controller.php:97
+#, php-format
+msgid "%s muss ein Text in gültigem UTF-8 sein."
+msgstr "%s mora biti veljavno besedilo UTF-8."
+
+#. translators: %s: parameter name.
+#: includes/class-edu-rest-controller.php:124
+#, php-format
+msgid ""
+"%s muss ein Objekt mit Texten als Werten sein, zum Beispiel {\"Max Müller\": "
+"\"\"}."
+msgstr ""
+"%s mora biti predmet z besedilnimi vrednostmi, npr. {\"Max Müller\": \"\"}."
+
+#: includes/class-edu-rest-controller.php:148
+msgid "Der Text konnte nicht pseudonymisiert werden."
+msgstr "Besedila ni bilo mogoče psevdonimizirati."
+
+#: includes/class-edu-shortcodes.php:70
+msgid ""
+"Diese Demo steht angemeldeten Benutzern mit der nötigen Berechtigung offen. "
+"Wer sie benutzen kann, kann auch das Token eines geratenen Datums berechnen."
+msgstr ""
+"Ta predstavitev je na voljo prijavljenim pooblaščenim uporabnikom. Kdor jo "
+"uporablja, lahko izračuna tudi žeton ugibanega datuma."
+
+#: includes/class-edu-shortcodes.php:75
+msgid "Pseudonymisierung vor der Übergabe an KI-Dienste"
+msgstr "Psevdonimizacija pred posredovanjem storitvam UI"
+
+#: includes/class-edu-shortcodes.php:76
+msgid ""
+"Ersetzt Datumsangaben wie Geburtsdaten und Klassenbezeichnungen durch "
+"Platzhalter, bevor ein Text an ein KI-Modell geht. Schülernamen werden nur "
+"ersetzt, wenn die Namensliste der Schule als known_students an die REST-"
+"Route wm-edu/v1/tokenize übergeben wird."
+msgstr ""
+"Nadomesti datume in oznake oddelkov z nadomestnimi oznakami pred pošiljanjem "
+"modelu UI. Imena učencev se nadomestijo le, če se seznam šole posreduje kot "
+"known_students poti wm-edu/v1/tokenize."
+
+#: includes/class-edu-shortcodes.php:78
+msgid "Text mit Schülerdaten"
+msgstr "Besedilo s podatki učencev"
+
+#: includes/class-edu-shortcodes.php:78
+msgid ""
+"Max Müller (geb. 15.03.2012) aus Klasse 9b hat im Aufsatz eine hervorragende "
+"Leistung erbracht."
+msgstr "Max Müller (roj. 15.03.2012) iz Klasse 9b je napisal odličen spis."
+
+#: includes/class-edu-shortcodes.php:79
+msgid "Text pseudonymisieren"
+msgstr "Psevdonimiziraj besedilo"
+
+#: includes/class-edu-shortcodes.php:97
+msgid "Der Text konnte nicht verarbeitet werden: er ist kein gültiges UTF-8."
+msgstr "Besedila ni mogoče obdelati: ni veljaven UTF-8."
+
+#. translators: %d: number of replaced dates and class identifiers.
+#: includes/class-edu-shortcodes.php:102
+#, php-format
+msgid "Pseudonymisierter Text (%d Datum oder Klassenbezeichnung ersetzt)"
+msgid_plural ""
+"Pseudonymisierter Text (%d Datumsangaben oder Klassenbezeichnungen ersetzt)"
+msgstr[0] "Psevdonimizirano besedilo (nadomeščen %d datum ali oddelek)"
+msgstr[1] "Psevdonimizirano besedilo (nadomeščena %d datuma ali oddelka)"
+msgstr[2] "Psevdonimizirano besedilo (nadomeščeni %d datumi ali oddelki)"
+msgstr[3] "Psevdonimizirano besedilo (nadomeščenih %d datumov ali oddelkov)"
+
+#: includes/class-edu-shortcodes.php:107
+msgid ""
+"Hinweis: Schülernamen werden nur pseudonymisiert, wenn die Schülerliste der "
+"Schule als known_students an die REST-Route wm-edu/v1/tokenize übergeben "
+"wird. Diese Demo ersetzt Datumsangaben und Klassenbezeichnungen."
+msgstr ""
+"Opomba: imena učencev se psevdonimizirajo le, če se seznam posreduje kot "
+"known_students poti REST wm-edu/v1/tokenize. Ta predstavitev nadomešča "
+"datume in oddelke."
+
+#: includes/class-edu-shortcodes.php:125
+msgid "Zur Anmeldung"
+msgstr "Na prijavo"
+
+#: includes/class-edu-shortcodes.php:143 includes/class-edu-shortcodes.php:153
+#: includes/class-edu-shortcodes.php:154
+msgid "Eltern-Einwilligung prüfen"
+msgstr "Preveri soglasje staršev"
+
+#: includes/class-edu-shortcodes.php:145
+msgid ""
+"Diese Abfrage steht angemeldeten Benutzern mit der nötigen Berechtigung "
+"offen. Sie gibt preis, ob für eine Schüler-ID eine Einwilligung vorliegt."
+msgstr ""
+"Ta poizvedba je odprta prijavljenim pooblaščenim uporabnikom in razkriva, "
+"ali za ID učenca obstaja soglasje."
+
+#: includes/class-edu-shortcodes.php:155
+msgid ""
+"Zeigt den letzten Eintrag im Einwilligungsregister dieser Website für eine "
+"Schüler-ID, gleich welcher Einwilligungsart. Solange die Signaturkette des "
+"Registers nicht vollständig geprüft werden kann, wird keine Einwilligung "
+"angezeigt."
+msgstr ""
+"Prikaže zadnji vnos v registru soglasij tega mesta za ID učenca. Dokler "
+"verige podpisov ni mogoče preveriti, se soglasje ne prikaže."
+
+#. translators: %s: label of the consent type the shortcode asks about.
+#: includes/class-edu-shortcodes.php:160
+#, php-format
+msgid "Geprüft wird nur die Einwilligungsart: %s"
+msgstr "Preverja se samo vrsta soglasja: %s"
+
+#: includes/class-edu-shortcodes.php:167
+msgid "Schüler-ID / Token"
+msgstr "ID učenca / Žeton"
+
+#: includes/class-edu-shortcodes.php:168
+msgid "Einwilligung prüfen"
+msgstr "Preveri soglasje"
+
+#: includes/class-edu-shortcodes.php:178
+msgid ""
+"Die Sicherheitsprüfung ist fehlgeschlagen. Bitte laden Sie die Seite neu und "
+"versuchen Sie es erneut."
+msgstr "Varnostno preverjanje ni uspelo. Osvežite stran in poskusite znova."
+
+#. translators: %s: pupil token.
+#: includes/class-edu-shortcodes.php:186
+#, php-format
+msgid ""
+"GÜLTIGE EINWILLIGUNG: Für %s ist als letzter Eintrag im Register eine "
+"erteilte Einwilligung erfasst."
+msgstr "VELJAVNO SOGLASJE: Za %s je zadnji vnos v registru podano soglasje."
+
+#: includes/class-edu-shortcodes.php:188
+msgid ""
+"REGISTER NICHT PRÜFBAR: Die Einwilligungstabelle fehlt oder ihre "
+"Signaturkette ist unterbrochen; es wird keine Einwilligung angezeigt."
+msgstr ""
+"REGISTRA NI MOGOČE PREVERITI: Tabela manjka ali je veriga podpisov "
+"prekinjena; soglasje ni prikazano."
+
+#. translators: %s: pupil token.
+#: includes/class-edu-shortcodes.php:191
+#, php-format
+msgid ""
+"KEIN NACHWEIS: Für %s liegt kein aktiver Einwilligungsnachweis vor oder er "
+"wurde widerrufen."
+msgstr "NI DOKAZILA: Za %s ni aktivnega soglasja ali pa je bilo preklicano."
+
+#. translators: %s: action name.
+#: includes/class-edu-spoke-adapter.php:134
+#, php-format
+msgid "Unbekannte Spoke-Aktion \"%s\"."
+msgstr "Neznano dejanje spoke \"%s\"."
+
+#: includes/class-edu-spoke-adapter.php:142
+msgid "Die Pseudonymisierung liefert abweichende Werte."
+msgstr "Psevdonimizacija vrača odstopajoče vrednosti."
+
+#: includes/class-edu-spoke-adapter.php:145
+msgid "Die Pseudonymisierung ist abgebrochen."
+msgstr "Psevdonimizacija je bila prekinjena."
+
+#: includes/class-edu-spoke-adapter.php:156
+msgid "Selbsttest fehlgeschlagen:"
+msgstr "Samopreizkus ni uspel:"
+
+#. translators: 1: rows verified, 2: rows in the ledger.
+#: includes/class-edu-spoke-adapter.php:162
+#, php-format
+msgid ""
+"Pseudonymisierung ersetzt Namen, Klasse und Datum; Einwilligungskette gültig "
+"(%1$d von %2$d Einträgen geprüft)."
+msgstr ""
+"Psevdonimizacija nadomesti imena, oddelek in datum; veriga soglasij veljavna "
+"(%1$d od %2$d vnosov preverjenih)."
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

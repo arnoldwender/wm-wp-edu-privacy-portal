@@ -1,0 +1,24 @@
+# WM Edu Privacy Portal
+
+> WordPress plugin that records parental consent in a hash-chained register: guardians decide in `[wm_edu_consent_form]`, confirm through a one-time link sent to the address the school has on file, and revoke through a second link; the school works with the register on an admin screen behind the capability `manage_edu_consents` and looks a pupil up with `[wm_edu_consent_gate]`. It also replaces German dates, class identifiers and caller-supplied pupil names with placeholder tokens (REST routes `wm-edu/v1/tokenize` / `detokenize`, `wp edu tokenize`), which needs a logged-in user with a capability.
+
+## Overview
+
+`wm-edu-privacy-portal` is a WordPress plugin developed with an agentic workflow (AI coding agents). It has five tables, no external requests and no frontend script, and registers as a spoke of the WM Suite Hub when the hub is active. It makes no DSGVO, school-act, FERPA or COPPA assessment, says nothing about whether a recorded consent is valid, and replacing three kinds of data is not full anonymisation.
+
+## Standards
+
+- PHP 8.1+ with strict types; standalone test suite on SQLite with a mutation check
+- Zero-CDN (no asset loaded from another host)
+- Late escaping, prepared queries, keys derived from wp_salt('auth') per purpose
+- Every consent append holds a MySQL named lock, links to a signed recorded tip and writes row and tip in one transaction
+- A consent is recorded on POST only, and only for a pupil ID and address registered together
+- The lookup shows no consent while the signature chain does not verify; recorded consents are never deleted
+- Known: a database without named locks refuses consent writes; the recorded tip is an option and can be deleted with the rows
+- Version 1.2.1.
+
+## Official Links
+
+- Plugin Page: https://arnoldwender.com/wordpress-plugins/wm-edu-privacy-portal/
+- GitHub Repository: https://github.com/arnoldwender/wm-wp-edu-privacy-portal
+- Support & Liability: Zero support — reproducible bugs on https://github.com/arnoldwender/wm-wp-edu-privacy-portal/issues only · no private support · AS IS / no liability (SUPPORT.md)

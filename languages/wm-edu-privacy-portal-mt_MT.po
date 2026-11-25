@@ -1,0 +1,1053 @@
+# Translation of wm-edu-privacy-portal in mt_MT
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-edu-privacy-portal 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-edu-privacy-"
+"portal\n"
+"POT-Creation-Date: 2026-11-25T00:05:41+00:00\n"
+"PO-Revision-Date: 2026-11-21 18:10+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-edu-privacy-"
+"portal/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-edu-privacy-"
+"portal/issues>\n"
+"Language: mt_MT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==0 || (n%100>1 && n%100<11) ? "
+"1 : (n%100>10 && n%100<20 ) ? 2 : 3);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-edu-privacy-portal\n"
+
+#. Plugin Name of the plugin
+#: wm-edu-privacy-portal.php
+msgid "WM Edu Privacy Portal"
+msgstr "WM Edu Privacy Portal"
+
+#. Plugin URI of the plugin
+#: wm-edu-privacy-portal.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-edu-privacy-portal/"
+msgstr ""
+
+#. Description of the plugin
+#: wm-edu-privacy-portal.php
+msgid ""
+"Ersetzt Datumsangaben, Klassenbezeichnungen und übergebene Schülernamen "
+"durch Platzhalter, bevor Text die Website verlässt, und prüft Eltern-"
+"Einwilligungen gegen ein hash-verkettetes Register."
+msgstr ""
+"Jissostitwixxi dati, identifikaturi tal-klassi u ismijiet tal-istudenti "
+"mogħtija b’postijiet riservati qabel ma t-test joħroġ mis-sit, u jivverifika "
+"l-kunsensi tal-ġenituri ma’ reġistru marbut bil-hash."
+
+#. Author of the plugin
+#: wm-edu-privacy-portal.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-edu-privacy-portal.php
+msgid "https://arnoldwender.com"
+msgstr ""
+
+#: includes/class-edu-access.php:96
+msgid ""
+"Diese Route setzt eine Anmeldung voraus. Cookie-Anmeldungen benötigen "
+"zusätzlich den REST-Nonce X-WP-Nonce."
+msgstr ""
+"Din ir-rotta teħtieġ illoggjar. Sessjonijiet bil-cookies jeħtieġu wkoll ir-"
+"REST nonce X-WP-Nonce."
+
+#: includes/class-edu-access.php:99
+msgid "Für diese Route fehlt die Berechtigung."
+msgstr "M’għandekx permess għal din ir-rotta."
+
+#: includes/class-edu-admin.php:60 includes/class-edu-admin.php:389
+msgid "Einwilligungen"
+msgstr "Kunsensi"
+
+#: includes/class-edu-admin.php:61
+msgid "Übersicht"
+msgstr "Ħarsa ġenerali"
+
+#: includes/class-edu-admin.php:62 includes/class-edu-admin.php:455
+msgid "Erfassen"
+msgstr "Irreġistra"
+
+#: includes/class-edu-admin.php:63 includes/class-edu-admin.php:503
+msgid "Einwilligungsarten"
+msgstr "Tipi ta’ kunsens"
+
+#: includes/class-edu-admin.php:64 includes/class-edu-admin.php:537
+msgid "Erziehungsberechtigte"
+msgstr "Ġenituri / kustodji"
+
+#: includes/class-edu-admin.php:65 includes/class-edu-admin.php:580
+msgid "Einstellungen"
+msgstr "issettjar"
+
+#: includes/class-edu-admin.php:244
+msgid "Sie haben keine Berechtigung für diese Aktion."
+msgstr "M’għandekx permess għal din l-azzjoni."
+
+#: includes/class-edu-admin.php:314
+msgid "Die Einwilligung wurde erfasst."
+msgstr "Il-kunsens ġie rreġistrat."
+
+#: includes/class-edu-admin.php:315
+msgid "Der Widerruf wurde erfasst."
+msgstr "Ir-revoka ġiet irreġistrata."
+
+#: includes/class-edu-admin.php:316
+msgid "Die Einwilligungsart wurde angelegt."
+msgstr "It-tip ta’ kunsens inħoloq."
+
+#: includes/class-edu-admin.php:317
+msgid "Die Einwilligungsart wurde gespeichert."
+msgstr "It-tip ta’ kunsens ġie ssejvjat."
+
+#: includes/class-edu-admin.php:318
+msgid "Die Zuordnung wurde gespeichert."
+msgstr "Ir-rabta ġiet issejvjata."
+
+#: includes/class-edu-admin.php:319
+msgid "Die Zuordnung wurde entfernt."
+msgstr "Ir-rabta tneħħiet."
+
+#: includes/class-edu-admin.php:320
+msgid "Die Zuordnungen wurden übernommen."
+msgstr "Ir-rabtiet ġew importati."
+
+#: includes/class-edu-admin.php:321
+msgid "Die Einstellungen wurden gespeichert."
+msgstr "L-issettjar ġie ssejvjat."
+
+#: includes/class-edu-admin.php:324
+msgid ""
+"Die Angaben sind unvollständig: Schüler-ID, E-Mail-Adresse, Art, Status und "
+"Begründung werden benötigt."
+msgstr ""
+"Id-dettalji mhumiex kompluti: meħtieġa ID tal-istudent, indirizz tal-email, "
+"tip, stat u raġuni."
+
+#: includes/class-edu-admin.php:325
+msgid ""
+"Für diese Schüler-ID und Art gibt es keinen Eintrag, der widerrufen werden "
+"könnte."
+msgstr ""
+"M’hemm l-ebda entrata għal din l-ID tal-istudent u dan it-tip li tista’ tiġi "
+"revokata."
+
+#: includes/class-edu-admin.php:326
+msgid "Diese Einwilligungsart gibt es nicht."
+msgstr "Dan it-tip ta’ kunsens ma jeżistix."
+
+#: includes/class-edu-admin.php:327
+msgid "Dieser Status ist nicht zulässig."
+msgstr "Dan l-istat mhux permess."
+
+#: includes/class-edu-admin.php:328
+msgid "Diese Kennung ist bereits vergeben."
+msgstr "Dan il-kodiċi diġà qed jintuża."
+
+#: includes/class-edu-admin.php:329
+msgid ""
+"Kennung, Bezeichnung und Wortlaut werden benötigt; die Kennung besteht aus "
+"Großbuchstaben, Ziffern, \"_\" und \"-\"."
+msgstr ""
+"Meħtieġa kodiċi, tikketta u kliem; il-kodiċi jikkonsisti f’ittri kbar, "
+"ċifri, \"_\" u \"-\"."
+
+#: includes/class-edu-admin.php:330
+msgid "Diese Zuordnung gibt es bereits."
+msgstr "Din ir-rabta diġà teżisti."
+
+#: includes/class-edu-admin.php:331
+msgid "Schüler-ID oder E-Mail-Adresse sind nicht gültig."
+msgstr "L-ID tal-istudent jew l-indirizz tal-email mhumiex validi."
+
+#: includes/class-edu-admin.php:332
+msgid "Diese Zuordnung gibt es nicht."
+msgstr "Din ir-rabta ma teżistix."
+
+#: includes/class-edu-admin.php:333
+msgid "Einige Zeilen konnten nicht gelesen werden; der Rest wurde übernommen."
+msgstr "Xi linji ma setgħux jinqraw; il-bqija ġew importati."
+
+#: includes/class-edu-admin.php:334
+msgid "Es wurde keine Zuordnung übernommen."
+msgstr "L-ebda rabta ma ġiet importata."
+
+#: includes/class-edu-admin.php:335
+msgid "Das Register war gesperrt. Bitte in einigen Minuten erneut versuchen."
+msgstr "Ir-reġistru kien imsakkar. Erġa’ pprova fi ftit minuti."
+
+#: includes/class-edu-admin.php:336
+msgid "Die Einwilligungstabelle fehlt."
+msgstr "It-tabella tal-kunsensi hija nieqsa."
+
+#: includes/class-edu-admin.php:337
+msgid "Der Eintrag konnte nicht gespeichert werden."
+msgstr "L-entrata ma setgħetx tiġi ssejvjata."
+
+#. translators: 1: rows verified, 2: schema-1 rows among them.
+#: includes/class-edu-admin.php:355
+#, php-format
+msgid "Signaturkette geprüft: %1$d Einträge, davon %2$d aus Schema 1."
+msgstr ""
+"Katina tal-firem ivverifikata: %1$d entrati, fosthom %2$d minn skema 1."
+
+#: includes/class-edu-admin.php:362
+msgid "Das Register ist nicht prüfbar:"
+msgstr "Ir-reġistru ma jistax jiġi vverifikat:"
+
+#: includes/class-edu-admin.php:363
+msgid "Solange das so ist, zeigt die Abfrage im Portal keine Einwilligung an."
+msgstr "Sakemm jibqa’ hekk, it-tfittxija fil-portal ma turi l-ebda kunsens."
+
+#: includes/class-edu-admin.php:368 includes/class-edu-consent-requests.php:304
+msgid "erteilt"
+msgstr "mogħti"
+
+#: includes/class-edu-admin.php:369
+msgid "widerrufen"
+msgstr "revokat"
+
+#: includes/class-edu-admin.php:370 includes/class-edu-consent-requests.php:304
+msgid "verweigert"
+msgstr "miċħud"
+
+#: includes/class-edu-admin.php:377
+msgid "Bestätigung der Erziehungsberechtigten"
+msgstr "Konferma tal-ġenituri/kustodji"
+
+#: includes/class-edu-admin.php:378
+msgid "Widerrufslink"
+msgstr "Ħolqa ta’ revoka"
+
+#: includes/class-edu-admin.php:379
+msgid "Erfassung im Backend"
+msgstr "Reġistrazzjoni fl-amministrazzjoni"
+
+#: includes/class-edu-admin.php:380
+msgid "Widerruf im Backend"
+msgstr "Revoka fl-amministrazzjoni"
+
+#: includes/class-edu-admin.php:381
+msgid "Programmaufruf"
+msgstr "Sejħa programmatika"
+
+#: includes/class-edu-admin.php:383
+msgid "unbekannt (Schema 2)"
+msgstr "mhux magħruf (skema 2)"
+
+#: includes/class-edu-admin.php:394 includes/class-edu-admin.php:420
+#: includes/class-edu-admin.php:459 includes/class-edu-admin.php:482
+#: includes/class-edu-admin.php:542 includes/class-edu-admin.php:563
+#: includes/class-edu-consent-form.php:314
+msgid "Schüler-ID"
+msgstr "ID tal-istudent"
+
+#: includes/class-edu-admin.php:396
+msgid "Verlauf anzeigen"
+msgstr "Uri l-istorja"
+
+#: includes/class-edu-admin.php:398
+msgid "Register als CSV exportieren"
+msgstr "Esporta r-reġistru bħala CSV"
+
+#: includes/class-edu-admin.php:402
+msgid "Aktueller Stand je Schüler-ID und Art"
+msgstr "Stat attwali skont l-ID tal-istudent u t-tip"
+
+#. translators: %s: pupil ID.
+#: includes/class-edu-admin.php:404
+#, php-format
+msgid "Verlauf für %s"
+msgstr "Storja għal %s"
+
+#: includes/class-edu-admin.php:415
+msgid "Keine Einträge."
+msgstr "L-ebda entrata."
+
+#: includes/class-edu-admin.php:419
+msgid "Zeit (UTC)"
+msgstr "Ħin (UTC)"
+
+#: includes/class-edu-admin.php:421
+msgid "Art"
+msgstr "Tip"
+
+#: includes/class-edu-admin.php:422 includes/class-edu-admin.php:466
+msgid "Status"
+msgstr "Stat"
+
+#: includes/class-edu-admin.php:423
+msgid "E-Mail"
+msgstr "Email elettronika"
+
+#: includes/class-edu-admin.php:424
+msgid "Herkunft"
+msgstr "Oriġini"
+
+#: includes/class-edu-admin.php:425 includes/class-edu-admin.php:471
+#: includes/class-edu-admin.php:488
+msgid "Begründung"
+msgstr "Raġuni"
+
+#: includes/class-edu-admin.php:426 includes/class-edu-admin.php:529
+msgid "Wortlaut"
+msgstr "Kliem"
+
+#: includes/class-edu-admin.php:439
+msgid "aktueller Wortlaut"
+msgstr "kliem attwali"
+
+#: includes/class-edu-admin.php:439
+msgid "seit der Erteilung geändert"
+msgstr "mibdul wara l-għoti"
+
+#: includes/class-edu-admin.php:444
+msgid "Widerrufen und Nacherfassen: über die Seite „Erfassen“."
+msgstr "Revoki u reġistrazzjonijiet manwali: permezz tal-paġna “Irreġistra”."
+
+#: includes/class-edu-admin.php:449
+msgid "Einwilligung erfassen oder widerrufen"
+msgstr "Irreġistra jew irrevoka kunsens"
+
+#: includes/class-edu-admin.php:452
+msgid ""
+"Für Fälle außerhalb des Formulars: eine auf Papier erteilte Einwilligung "
+"nachtragen oder einen telefonisch erklärten Widerruf erfassen. Jeder Eintrag "
+"wird mit Ihrem Benutzerkonto und Ihrer Begründung signiert."
+msgstr ""
+"Għal każijiet barra l-formola: reġistrazzjoni ta’ kunsens fuq karta jew "
+"revoka bit-telefon. Kull entrata tiġi ffirmata bil-kont u r-raġuni tiegħek."
+
+#: includes/class-edu-admin.php:460
+msgid "E-Mail-Adresse der Erziehungsberechtigten"
+msgstr "Indirizz tal-email tal-ġenituri/kustodji"
+
+#: includes/class-edu-admin.php:461 includes/class-edu-admin.php:483
+msgid "Einwilligungsart"
+msgstr "Tip ta’ kunsens"
+
+#: includes/class-edu-admin.php:472
+msgid ""
+"Woher der Eintrag stammt, zum Beispiel: unterschriebenes Formular vom "
+"12.09.2026, im Sekretariat abgelegt."
+msgstr ""
+"Oriġini tal-entrata, eż.: formola ffirmata tat-12.09.2026 fis-segreterija."
+
+#: includes/class-edu-admin.php:474
+msgid "Eintrag erfassen"
+msgstr "Issejvja l-entrata"
+
+#: includes/class-edu-admin.php:477
+msgid "Widerrufen"
+msgstr "Irrevoka"
+
+#: includes/class-edu-admin.php:478
+msgid ""
+"Trägt einen Widerruf für den letzten Eintrag dieser Schüler-ID und Art ein; "
+"E-Mail-Adresse und Wortlaut werden aus diesem Eintrag übernommen."
+msgstr ""
+"Jirreġistra revoka għall-aħħar entrata ta’ din l-ID tal-istudent u t-tip; l-"
+"email u l-kliem jittieħdu minnha."
+
+#: includes/class-edu-admin.php:490
+msgid "Widerruf erfassen"
+msgstr "Issejvja r-revoka"
+
+#: includes/class-edu-admin.php:505
+msgid ""
+"Der Wortlaut ist das, wozu die Erziehungsberechtigten einwilligen; sein "
+"SHA-256 wird mit jeder Einwilligung gespeichert. Ein geänderter Wortlaut "
+"gilt für neue Anfragen; frühere Einträge behalten ihren. Arten werden nicht "
+"gelöscht, sondern deaktiviert."
+msgstr ""
+"Il-kliem huwa t-test eżatt li l-ġenituri jaqblu miegħu; ix-SHA-256 tiegħu "
+"jinħażen ma’ kull entrata. Test mibdul japplika għal talbiet ġodda filwaqt "
+"li dawk preċedenti jżommu tagħhom. It-tipi jiġu diżattivati u mhux imħassra."
+
+#: includes/class-edu-admin.php:507 includes/class-edu-admin.php:527
+msgid "Bezeichnung"
+msgstr "Tikketta"
+
+#: includes/class-edu-admin.php:507 includes/class-edu-admin.php:522
+#: includes/class-edu-admin.php:525
+msgid "Kennung"
+msgstr "Kodiċi"
+
+#: includes/class-edu-admin.php:507 includes/class-edu-admin.php:530
+msgid "Aktiv"
+msgstr "Attiv"
+
+#: includes/class-edu-admin.php:507
+msgid "Wortlaut-Hash"
+msgstr "Hash tal-kliem"
+
+#: includes/class-edu-admin.php:507 includes/class-edu-admin.php:512
+msgid "Bearbeiten"
+msgstr "Editja"
+
+#: includes/class-edu-admin.php:510
+msgid "ja"
+msgstr "iva"
+
+#: includes/class-edu-admin.php:510
+msgid "nein"
+msgstr "le"
+
+#: includes/class-edu-admin.php:516
+msgid "Neue Einwilligungsart"
+msgstr "Tip ġdid ta’ kunsens"
+
+#: includes/class-edu-admin.php:516
+msgid "Einwilligungsart bearbeiten"
+msgstr "Editja t-tip ta’ kunsens"
+
+#: includes/class-edu-admin.php:523
+msgid ""
+"Wird im Register gespeichert und kann später nicht geändert werden, zum "
+"Beispiel FAHRT_2026."
+msgstr "Jinħażen fir-reġistru u ma jistax jinbidel aktar tard, eż. FAHRT_2026."
+
+#: includes/class-edu-admin.php:528
+msgid "Beschreibung"
+msgstr "Deskrizzjoni"
+
+#: includes/class-edu-admin.php:530
+msgid "Im Formular für Erziehungsberechtigte anbieten"
+msgstr "Offri fil-formola tal-ġenituri/kustodji"
+
+#: includes/class-edu-admin.php:532
+msgid "Anlegen"
+msgstr "Oħloq"
+
+#: includes/class-edu-admin.php:532
+msgid "Speichern"
+msgstr "Issejvja"
+
+#: includes/class-edu-admin.php:539
+msgid ""
+"Das Formular schickt nur dann einen Bestätigungslink, wenn Schüler-ID und E-"
+"Mail-Adresse hier zusammen hinterlegt sind. Gespeichert wird die Adresse "
+"nicht im Klartext, sondern als HMAC; sie lässt sich prüfen, aber nicht "
+"auslesen. Deshalb zeigt die Liste nur die Anzahl der Adressen je Schüler-ID."
+msgstr ""
+"Il-formola tibgħat ħolqa ta’ konferma biss meta l-ID tal-istudent u l-"
+"indirizz tal-email ikunu rreġistrati flimkien hawnhekk. L-indirizz jinħażen "
+"bħala HMAC; il-lista turi biss l-għadd ta’ indirizzi għal kull ID."
+
+#: includes/class-edu-admin.php:542
+msgid "Hinterlegte Adressen"
+msgstr "Indirizzi rreġistrati"
+
+#: includes/class-edu-admin.php:547
+msgid "Keine Zuordnungen hinterlegt."
+msgstr "L-ebda rabta rreġistrata."
+
+#: includes/class-edu-admin.php:551
+msgid "Zuordnungen hinzufügen"
+msgstr "Żid rabtiet"
+
+#: includes/class-edu-admin.php:554
+msgid ""
+"Eine Zuordnung je Zeile: Schüler-ID und E-Mail-Adresse, getrennt durch "
+"Semikolon, Komma oder Tabulator."
+msgstr ""
+"Rabta waħda f’kull linja: ID tal-istudent u email separati b’punt u virgola, "
+"virgola jew tab."
+
+#: includes/class-edu-admin.php:556
+msgid "Zuordnungen übernehmen"
+msgstr "Importa r-rabtiet"
+
+#: includes/class-edu-admin.php:559 includes/class-edu-admin.php:566
+msgid "Zuordnung entfernen"
+msgstr "Neħħi r-rabta"
+
+#: includes/class-edu-admin.php:564 includes/class-edu-consent-form.php:317
+msgid "E-Mail-Adresse"
+msgstr "Indirizz tal-email"
+
+#: includes/class-edu-admin.php:572
+msgid "Alle Adressen einer Schüler-ID entfernen"
+msgstr "Neħħi l-indirizzi kollha ta’ ID tal-istudent"
+
+#: includes/class-edu-admin.php:574
+msgid "Alle Adressen entfernen"
+msgstr "Neħħi l-indirizzi kollha"
+
+#: includes/class-edu-admin.php:584
+msgid "Zugang"
+msgstr "Aċċess"
+
+#: includes/class-edu-admin.php:585
+msgid "Abfrage im Portal"
+msgstr "Mistoqsija fil-portal"
+
+#: includes/class-edu-admin.php:586
+msgid ""
+"Öffentlich zugänglich machen (wie vor Version mit Zugriffsschutz). Dann kann "
+"jede Person mit einer Schüler-ID erfahren, ob eine Einwilligung vorliegt."
+msgstr ""
+"Agħmel aċċessibbli pubblikament (bħal qabel il-protezzjoni tal-aċċess). "
+"Kulħadd b’ID tal-istudent jista’ jara jekk hemmx kunsens."
+
+#: includes/class-edu-admin.php:587 includes/class-edu-shortcodes.php:68
+#: includes/class-edu-shortcodes.php:74
+msgid "Pseudonymisierung"
+msgstr "Psewdonimizzazzjoni"
+
+#: includes/class-edu-admin.php:588
+msgid ""
+"REST-Routen und Demo öffentlich zugänglich machen. Dann kann jede Person das "
+"Token eines geratenen Namens oder Datums berechnen."
+msgstr ""
+"Agħmel ir-rotot REST u d-demo pubbliċi. Kulħadd ikun jista’ jikkalkula t-"
+"token ta’ isem jew data supposti."
+
+#: includes/class-edu-admin.php:589
+msgid "Rollen für die Abfrage"
+msgstr "Rwoli għat-tfittxija"
+
+#: includes/class-edu-admin.php:593
+msgid "Zusätzlich zu Benutzern mit der Berechtigung „manage_edu_consents“."
+msgstr "Minbarra l-utenti bil-permess “manage_edu_consents”."
+
+#: includes/class-edu-admin.php:596
+msgid "Formular für Erziehungsberechtigte"
+msgstr "Formola għall-ġenituri/kustodji"
+
+#: includes/class-edu-admin.php:597
+msgid "Gültigkeit des Bestätigungslinks (Stunden)"
+msgstr "Validità tal-ħolqa ta’ konferma (sigħat)"
+
+#: includes/class-edu-admin.php:598
+msgid "Anfragedaten löschen (Tage nach Ablauf)"
+msgstr "Ħassar id-dejta tat-talbiet (jiem wara l-iskadenza)"
+
+#: includes/class-edu-admin.php:599
+msgid "Anfragen je IP und Stunde"
+msgstr "Talbiet għal kull IP fis-siegħa"
+
+#: includes/class-edu-admin.php:600
+msgid "Anfragen je E-Mail-Adresse und Stunde"
+msgstr "Talbiet għal kull email fis-siegħa"
+
+#: includes/class-edu-admin.php:602
+msgid ""
+"Erfasste Einwilligungen werden im laufenden Betrieb nie gelöscht; die "
+"Aufbewahrungsfrist gilt nur für Anfragen, die nicht bestätigt wurden, und "
+"für abgeschlossene Widerrufslinks."
+msgstr ""
+"Il-kunsensi rreġistrati qatt ma jitħassru waqt it-tħaddim; iż-żamma tapplika "
+"biss għal talbiet mhux ikkonfermati u ħoloq ta’ revoka magħluqa."
+
+#: includes/class-edu-admin.php:604
+msgid "Deinstallation"
+msgstr "Diżinstallazzjoni"
+
+#: includes/class-edu-admin.php:605
+msgid "Daten bei Deinstallation löschen"
+msgstr "Ħassar id-dejta mal-diżinstallazzjoni"
+
+#: includes/class-edu-admin.php:606
+msgid ""
+"Alle Einstellungen, Zuordnungen, Einwilligungsarten und das "
+"Einwilligungsregister beim Löschen des Plugins endgültig entfernen "
+"(Standard: deaktiviert — alle Daten bleiben erhalten)."
+msgstr ""
+"Neħħi b’mod permanenti s-settings, ir-rabtiet, it-tipi ta’ kunsens u r-"
+"reġistru kollha meta jitħassar il-plugin (awtomatiku: mitfi — id-dejta "
+"kollha tinżamm)."
+
+#: includes/class-edu-consent-form.php:156
+msgid ""
+"Bitte geben Sie die Schüler-ID an, die Sie von der Schule erhalten haben "
+"(höchstens 64 Zeichen)."
+msgstr ""
+"Jekk jogħġbok daħħal l-ID tal-istudent li rċevejt mill-iskola (massimu 64 "
+"karattru)."
+
+#: includes/class-edu-consent-form.php:159
+msgid "Bitte geben Sie eine gültige E-Mail-Adresse an."
+msgstr "Jekk jogħġbok daħħal indirizz tal-email validu."
+
+#: includes/class-edu-consent-form.php:175
+msgid ""
+"Bitte wählen Sie für mindestens eine Einwilligung „erteilen“ oder "
+"„verweigern“."
+msgstr "Agħżel “agħti” jew “irrifjuta” għal mill-inqas kunsens wieħed."
+
+#: includes/class-edu-consent-form.php:178
+msgid ""
+"Bitte bestätigen Sie, dass Sie den Wortlaut der gewählten Einwilligungen "
+"gelesen haben."
+msgstr "Ikkonferma li qrajt il-kliem tal-kunsensi magħżula."
+
+#: includes/class-edu-consent-form.php:246
+msgid ""
+"Es wurden in kurzer Zeit zu viele Anfragen gesendet. Bitte versuchen Sie es "
+"in einer Stunde erneut."
+msgstr "Intbagħtu wisq talbiet fi żmien qasir. Erġa’ pprova wara siegħa."
+
+#: includes/class-edu-consent-form.php:247
+msgid ""
+"Ihre Angaben konnten gerade nicht gespeichert werden. Bitte versuchen Sie es "
+"in einigen Minuten erneut; der Link bleibt gültig."
+msgstr ""
+"Id-dettalji tiegħek ma setgħux jiġu ssejvjati bħalissa. Erġa’ pprova fi ftit "
+"minuti; il-ħolqa tibqa’ valida."
+
+#: includes/class-edu-consent-form.php:248
+#: includes/class-edu-consent-form.php:352
+#: includes/class-edu-consent-form.php:378
+msgid "Dieser Link ist ungültig, abgelaufen oder wurde bereits verwendet."
+msgstr "Din il-ħolqa mhijiex valida, skadiet jew diġà ntużat."
+
+#: includes/class-edu-consent-form.php:249
+msgid ""
+"Ihre Angaben konnten nicht gespeichert werden. Bitte wenden Sie sich an die "
+"Schule."
+msgstr ""
+"Id-dettalji tiegħek ma setgħux jiġu ssejvjati. Jekk jogħġbok ikkuntattja l-"
+"iskola."
+
+#: includes/class-edu-consent-form.php:250
+msgid "Bitte bestätigen Sie, dass Sie den Wortlaut gelesen haben."
+msgstr "Ikkonferma li qrajt il-kliem."
+
+#: includes/class-edu-consent-form.php:261
+msgid ""
+"Vielen Dank. Wenn die Schüler-ID und die E-Mail-Adresse zu den Angaben der "
+"Schule passen, erhalten Sie in Kürze eine E-Mail mit einem Bestätigungslink. "
+"Erst mit der Bestätigung wird Ihre Entscheidung erfasst."
+msgstr ""
+"Grazzi. Jekk l-ID tal-istudent u l-email jaqblu mar-rekords tal-iskola, "
+"dalwaqt tirċievi email b’ħolqa ta’ konferma. Id-deċiżjoni tiġi rreġistrata "
+"biss wara l-konferma."
+
+#: includes/class-edu-consent-form.php:262
+msgid ""
+"Ihre Angaben wurden erfasst. Sie erhalten eine Bestätigung per E-Mail; "
+"erteilte Einwilligungen können Sie über den Link darin jederzeit widerrufen."
+msgstr ""
+"Id-dettalji tiegħek ġew irreġistrati. Tirċievi konferma bl-email; tista’ "
+"tirrevoka l-kunsensi mogħtija fi kwalunkwe ħin permezz tal-ħolqa fiha."
+
+#: includes/class-edu-consent-form.php:263
+msgid "Ihr Widerruf wurde erfasst. Sie erhalten eine Bestätigung per E-Mail."
+msgstr "Ir-revoka tiegħek ġiet irreġistrata. Tirċievi konferma bl-email."
+
+#: includes/class-edu-consent-form.php:265
+msgid "Einwilligungen der Erziehungsberechtigten"
+msgstr "Kunsensi tal-ġenituri u l-kustodji"
+
+#: includes/class-edu-consent-form.php:277
+msgid "Wortlaut der Einwilligung"
+msgstr "Kliem tal-kunsens"
+
+#: includes/class-edu-consent-form.php:290
+msgid "Einwilligungen erteilen oder verweigern"
+msgstr "Agħti jew irrifjuta kunsensi"
+
+#: includes/class-edu-consent-form.php:292
+msgid ""
+"Derzeit können über dieses Formular keine Einwilligungen erteilt werden."
+msgstr "Bħalissa ma jistgħux jingħataw kunsensi permezz ta’ din il-formola."
+
+#: includes/class-edu-consent-form.php:294
+msgid ""
+"Geben Sie die Schüler-ID an, die Sie von der Schule erhalten haben, und die "
+"E-Mail-Adresse, die die Schule von Ihnen kennt. Sie erhalten eine E-Mail mit "
+"einem Bestätigungslink; erst mit der Bestätigung wird Ihre Entscheidung "
+"erfasst."
+msgstr ""
+"Daħħal l-ID tal-istudent mill-iskola u l-email irreġistrata mal-iskola. "
+"Tirċievi email b’ħolqa ta’ konferma; id-deċiżjoni tiġi rreġistrata biss wara "
+"l-konferma."
+
+#: includes/class-edu-consent-form.php:305
+msgid "Bitte prüfen Sie Ihre Angaben:"
+msgstr "Jekk jogħġbok iċċekkja d-dettalji tiegħek:"
+
+#: includes/class-edu-consent-form.php:321
+msgid "Ihre Entscheidungen"
+msgstr "Id-deċiżjonijiet tiegħek"
+
+#: includes/class-edu-consent-form.php:333
+#: includes/class-edu-consent-form.php:363
+msgid "Einwilligung erteilen"
+msgstr "Agħti l-kunsens"
+
+#: includes/class-edu-consent-form.php:334
+#: includes/class-edu-consent-form.php:363
+msgid "Einwilligung verweigern"
+msgstr "Irrifjuta l-kunsens"
+
+#: includes/class-edu-consent-form.php:339
+msgid "Ich habe den Wortlaut der gewählten Einwilligungen gelesen."
+msgstr "Qrajt il-kliem tal-kunsensi magħżula."
+
+#: includes/class-edu-consent-form.php:343
+msgid "Website"
+msgstr "Sit web"
+
+#: includes/class-edu-consent-form.php:344
+msgid "Angaben absenden"
+msgstr "Ibgħat id-dettalji"
+
+#: includes/class-edu-consent-form.php:350
+#: includes/class-edu-consent-form.php:369
+msgid "Angaben bestätigen"
+msgstr "Ikkonferma d-dettalji"
+
+#. translators: %s: pupil ID.
+#: includes/class-edu-consent-form.php:357
+#, php-format
+msgid ""
+"Für die Schüler-ID %s wurden folgende Angaben gemacht. Mit Ihrer Bestätigung "
+"werden sie im Einwilligungsregister der Schule erfasst."
+msgstr ""
+"Għall-ID tal-istudent %s tressqu dawn l-għażliet. Bil-konferma tiegħek jiġu "
+"rreġistrati fir-reġistru tal-iskola."
+
+#: includes/class-edu-consent-form.php:368
+msgid "Ich habe den Wortlaut gelesen und bestätige diese Angaben."
+msgstr "Qrajt il-kliem u nikkonferma dawn id-dettalji."
+
+#: includes/class-edu-consent-form.php:375
+#: includes/class-edu-consent-form.php:393
+msgid "Einwilligungen widerrufen"
+msgstr "Irrevoka l-kunsensi"
+
+#. translators: %s: pupil ID.
+#: includes/class-edu-consent-form.php:383
+#, php-format
+msgid ""
+"Für die Schüler-ID %s können Sie folgende erteilte Einwilligungen "
+"widerrufen. Der Widerruf wird im Einwilligungsregister der Schule erfasst."
+msgstr ""
+"Għall-ID tal-istudent %s tista’ tirrevoka dawn il-kunsensi mogħtija. Ir-"
+"revoka tiġi rreġistrata fir-reġistru tal-iskola."
+
+#: includes/class-edu-consent-requests.php:178
+msgid "erteilen"
+msgstr "agħti"
+
+#: includes/class-edu-consent-requests.php:178
+msgid "verweigern"
+msgstr "irrifjuta"
+
+#. translators: 1: site name, 2: pupil ID, 3: list of decisions, 4: validity in hours, 5: confirmation link.
+#: includes/class-edu-consent-requests.php:182
+#, php-format
+msgid ""
+"Guten Tag,\n"
+"\n"
+"über das Einwilligungsformular von %1$s wurden für die Schüler-ID %2$s "
+"folgende Angaben gemacht:\n"
+"\n"
+"%3$s\n"
+"\n"
+"Erfasst werden diese Angaben erst, wenn Sie sie über den folgenden Link "
+"bestätigen. Der Link ist %4$d Stunden gültig und kann einmal verwendet "
+"werden:\n"
+"\n"
+"%5$s\n"
+"\n"
+"Wenn Sie diese Angaben nicht gemacht haben, müssen Sie nichts tun: Ohne "
+"Bestätigung wird nichts erfasst."
+msgstr ""
+"Bonġu,\n"
+"\n"
+"permezz tal-formola tal-kunsens ta’ %1$s tressqu dawn id-dettalji għall-ID "
+"tal-istudent %2$s:\n"
+"\n"
+"%3$s\n"
+"\n"
+"Dawn id-dettalji jiġu rreġistrati biss wara li tikkonfermahom fil-ħolqa "
+"t’hawn taħt. Il-ħolqa hija valida għal %4$d sigħat u tintuża darba:\n"
+"\n"
+"%5$s\n"
+"\n"
+"Jekk ma bgħattx int dawn id-dettalji, m’għandekx għalfejn tagħmel xejn."
+
+#. translators: %s: site name.
+#: includes/class-edu-consent-requests.php:190
+#, php-format
+msgid "[%s] Bitte bestätigen Sie Ihre Angaben zur Einwilligung"
+msgstr "[%s] Jekk jogħġbok ikkonferma d-dettalji tal-kunsens tiegħek"
+
+#. translators: 1: pupil ID, 2: date and time, 3: site name, 4: list of decisions.
+#: includes/class-edu-consent-requests.php:308
+#, php-format
+msgid ""
+"Guten Tag,\n"
+"\n"
+"für die Schüler-ID %1$s wurden am %2$s folgende Entscheidungen im "
+"Einwilligungsregister von %3$s erfasst:\n"
+"\n"
+"%4$s"
+msgstr ""
+"Bonġu,\n"
+"\n"
+"għall-ID tal-istudent %1$s nhar %2$s ġew irreġistrati dawn id-deċiżjonijiet "
+"fir-reġistru ta’ %3$s:\n"
+"\n"
+"%4$s"
+
+#. translators: %s: revocation link.
+#: includes/class-edu-consent-requests.php:317
+#, php-format
+msgid ""
+"Erteilte Einwilligungen können Sie jederzeit über diesen Link widerrufen:\n"
+"\n"
+"%s"
+msgstr ""
+"Tista’ tirrevoka l-kunsensi mogħtija fi kwalunkwe ħin permezz ta’ din il-"
+"ħolqa:\n"
+"\n"
+"%s"
+
+#. translators: %s: site name.
+#: includes/class-edu-consent-requests.php:322
+#, php-format
+msgid "[%s] Ihre Angaben zur Einwilligung wurden erfasst"
+msgstr "[%s] Id-dettalji tal-kunsens tiegħek ġew irreġistrati"
+
+#. translators: 1: pupil ID, 2: date and time, 3: site name, 4: list of consent types.
+#: includes/class-edu-consent-requests.php:395
+#, php-format
+msgid ""
+"Guten Tag,\n"
+"\n"
+"für die Schüler-ID %1$s wurde am %2$s der Widerruf folgender Einwilligungen "
+"im Einwilligungsregister von %3$s erfasst:\n"
+"\n"
+"%4$s"
+msgstr ""
+"Bonġu,\n"
+"\n"
+"għall-ID tal-istudent %1$s nhar %2$s ġiet irreġistrata r-revoka ta’ dawn il-"
+"kunsensi fir-reġistru ta’ %3$s:\n"
+"\n"
+"%4$s"
+
+#. translators: %s: site name.
+#: includes/class-edu-consent-requests.php:402
+#, php-format
+msgid "[%s] Ihr Widerruf wurde erfasst"
+msgstr "[%s] Ir-revoka tiegħek ġiet irreġistrata"
+
+#: includes/class-edu-ecosystem.php:34 includes/class-edu-ecosystem.php:44
+msgid "Einwilligungsregister-Status"
+msgstr "Stat tar-reġistru tal-kunsensi"
+
+#: includes/class-edu-ecosystem.php:78
+msgid "Einwilligung erteilt"
+msgstr "Kunsens mogħti"
+
+#: includes/class-edu-ecosystem.php:79 includes/class-edu-ecosystem.php:93
+msgid "Register nicht prüfbar"
+msgstr "Reġistru mhux verifikabbli"
+
+#: includes/class-edu-ecosystem.php:80
+msgid "Kein aktiver Einwilligungsnachweis"
+msgstr "L-ebda prova attiva ta’ kunsens"
+
+#: includes/class-edu-ecosystem.php:92
+msgid "Einwilligungsregister aktiv"
+msgstr "Reġistru tal-kunsensi attiv"
+
+#. translators: %s: parameter name.
+#: includes/class-edu-rest-controller.php:97
+#, php-format
+msgid "%s muss ein Text in gültigem UTF-8 sein."
+msgstr "%s irid ikun test UTF-8 validu."
+
+#. translators: %s: parameter name.
+#: includes/class-edu-rest-controller.php:124
+#, php-format
+msgid ""
+"%s muss ein Objekt mit Texten als Werten sein, zum Beispiel {\"Max Müller\": "
+"\"\"}."
+msgstr "%s irid ikun oġġett b’valuri ta’ test, eż. {\"Max Müller\": \"\"}."
+
+#: includes/class-edu-rest-controller.php:148
+msgid "Der Text konnte nicht pseudonymisiert werden."
+msgstr "It-test ma setax jiġi psewdonimizzat."
+
+#: includes/class-edu-shortcodes.php:70
+msgid ""
+"Diese Demo steht angemeldeten Benutzern mit der nötigen Berechtigung offen. "
+"Wer sie benutzen kann, kann auch das Token eines geratenen Datums berechnen."
+msgstr ""
+"Din id-demo hija miftuħa għal utenti illoggjati bil-permess meħtieġ. Min "
+"jużaha jista’ jikkalkula wkoll it-token ta’ data supposta."
+
+#: includes/class-edu-shortcodes.php:75
+msgid "Pseudonymisierung vor der Übergabe an KI-Dienste"
+msgstr "Psewdonimizzazzjoni qabel it-trażmissjoni lil servizzi tal-AI"
+
+#: includes/class-edu-shortcodes.php:76
+msgid ""
+"Ersetzt Datumsangaben wie Geburtsdaten und Klassenbezeichnungen durch "
+"Platzhalter, bevor ein Text an ein KI-Modell geht. Schülernamen werden nur "
+"ersetzt, wenn die Namensliste der Schule als known_students an die REST-"
+"Route wm-edu/v1/tokenize übergeben wird."
+msgstr ""
+"Jissostitwixxi dati u klassijiet b’postijiet riservati qabel jintbagħat it-"
+"test lil mudell tal-AI. L-ismijiet tal-istudenti jinbidlu biss meta l-lista "
+"tingħata bħala known_students lil wm-edu/v1/tokenize."
+
+#: includes/class-edu-shortcodes.php:78
+msgid "Text mit Schülerdaten"
+msgstr "Test b’dejta tal-istudenti"
+
+#: includes/class-edu-shortcodes.php:78
+msgid ""
+"Max Müller (geb. 15.03.2012) aus Klasse 9b hat im Aufsatz eine hervorragende "
+"Leistung erbracht."
+msgstr ""
+"Max Müller (twieled 15.03.2012) minn Klasse 9b kiseb riżultat eċċellenti fil-"
+"kompożizzjoni."
+
+#: includes/class-edu-shortcodes.php:79
+msgid "Text pseudonymisieren"
+msgstr "Psewdonimizza t-test"
+
+#: includes/class-edu-shortcodes.php:97
+msgid "Der Text konnte nicht verarbeitet werden: er ist kein gültiges UTF-8."
+msgstr "It-test ma setax jiġi pproċessat: UTF-8 mhux validu."
+
+#. translators: %d: number of replaced dates and class identifiers.
+#: includes/class-edu-shortcodes.php:102
+#, php-format
+msgid "Pseudonymisierter Text (%d Datum oder Klassenbezeichnung ersetzt)"
+msgid_plural ""
+"Pseudonymisierter Text (%d Datumsangaben oder Klassenbezeichnungen ersetzt)"
+msgstr[0] "Test psewdonimizzat (%d data jew klassi mibdula)"
+msgstr[1] "Test psewdonimizzat (%d dati jew klassijiet mibdula)"
+msgstr[2] "Test psewdonimizzat (%d data jew klassi mibdula)"
+msgstr[3] "Test psewdonimizzat (%d data jew klassi mibdula)"
+
+#: includes/class-edu-shortcodes.php:107
+msgid ""
+"Hinweis: Schülernamen werden nur pseudonymisiert, wenn die Schülerliste der "
+"Schule als known_students an die REST-Route wm-edu/v1/tokenize übergeben "
+"wird. Diese Demo ersetzt Datumsangaben und Klassenbezeichnungen."
+msgstr ""
+"Nota: l-ismijiet tal-istudenti jiġu psewdonimizzati biss meta l-lista "
+"tintbagħat bħala known_students lir-rotta REST wm-edu/v1/tokenize. Din id-"
+"demo tibdel id-dati u l-klassijiet."
+
+#: includes/class-edu-shortcodes.php:125
+msgid "Zur Anmeldung"
+msgstr "Mur għall-illoggjar"
+
+#: includes/class-edu-shortcodes.php:143 includes/class-edu-shortcodes.php:153
+#: includes/class-edu-shortcodes.php:154
+msgid "Eltern-Einwilligung prüfen"
+msgstr "Iċċekkja l-kunsens tal-ġenituri"
+
+#: includes/class-edu-shortcodes.php:145
+msgid ""
+"Diese Abfrage steht angemeldeten Benutzern mit der nötigen Berechtigung "
+"offen. Sie gibt preis, ob für eine Schüler-ID eine Einwilligung vorliegt."
+msgstr ""
+"Din it-tfittxija hija miftuħa għal utenti awtorizzati illoggjati u turi jekk "
+"hemmx kunsens għal ID tal-istudent."
+
+#: includes/class-edu-shortcodes.php:155
+msgid ""
+"Zeigt den letzten Eintrag im Einwilligungsregister dieser Website für eine "
+"Schüler-ID, gleich welcher Einwilligungsart. Solange die Signaturkette des "
+"Registers nicht vollständig geprüft werden kann, wird keine Einwilligung "
+"angezeigt."
+msgstr ""
+"Turi l-aħħar entrata fir-reġistru tal-kunsensi ta’ dan is-sit għal ID tal-"
+"istudent. Sakemm il-katina tal-firem ma tiġix ivverifikata, l-ebda kunsens "
+"ma jintwera."
+
+#. translators: %s: label of the consent type the shortcode asks about.
+#: includes/class-edu-shortcodes.php:160
+#, php-format
+msgid "Geprüft wird nur die Einwilligungsart: %s"
+msgstr "Jiġi ċċekkjat biss it-tip ta’ kunsens: %s"
+
+#: includes/class-edu-shortcodes.php:167
+msgid "Schüler-ID / Token"
+msgstr "ID tal-istudent / Token"
+
+#: includes/class-edu-shortcodes.php:168
+msgid "Einwilligung prüfen"
+msgstr "Iċċekkja l-kunsens"
+
+#: includes/class-edu-shortcodes.php:178
+msgid ""
+"Die Sicherheitsprüfung ist fehlgeschlagen. Bitte laden Sie die Seite neu und "
+"versuchen Sie es erneut."
+msgstr ""
+"Il-verifika tas-sigurtà falliet. Erġa’ għabbi l-paġna u pprova mill-ġdid."
+
+#. translators: %s: pupil token.
+#: includes/class-edu-shortcodes.php:186
+#, php-format
+msgid ""
+"GÜLTIGE EINWILLIGUNG: Für %s ist als letzter Eintrag im Register eine "
+"erteilte Einwilligung erfasst."
+msgstr ""
+"KUNSENS VALIDU: Għal %s l-aħħar entrata fir-reġistru hija kunsens mogħti."
+
+#: includes/class-edu-shortcodes.php:188
+msgid ""
+"REGISTER NICHT PRÜFBAR: Die Einwilligungstabelle fehlt oder ihre "
+"Signaturkette ist unterbrochen; es wird keine Einwilligung angezeigt."
+msgstr ""
+"REĠISTRU MHUX VERIFIKABBLI: It-tabella hija nieqsa jew il-katina tal-firem "
+"hija miksura; ma jintwera l-ebda kunsens."
+
+#. translators: %s: pupil token.
+#: includes/class-edu-shortcodes.php:191
+#, php-format
+msgid ""
+"KEIN NACHWEIS: Für %s liegt kein aktiver Einwilligungsnachweis vor oder er "
+"wurde widerrufen."
+msgstr "L-EBDA PROVA: Għal %s m’hemm l-ebda kunsens attiv jew ġie revokat."
+
+#. translators: %s: action name.
+#: includes/class-edu-spoke-adapter.php:134
+#, php-format
+msgid "Unbekannte Spoke-Aktion \"%s\"."
+msgstr "Azzjoni spoke mhux magħrufa \"%s\"."
+
+#: includes/class-edu-spoke-adapter.php:142
+msgid "Die Pseudonymisierung liefert abweichende Werte."
+msgstr "Il-psewdonimizzazzjoni tirritorna valuri differenti."
+
+#: includes/class-edu-spoke-adapter.php:145
+msgid "Die Pseudonymisierung ist abgebrochen."
+msgstr "Il-psewdonimizzazzjoni twaqqfet."
+
+#: includes/class-edu-spoke-adapter.php:156
+msgid "Selbsttest fehlgeschlagen:"
+msgstr "L-awtotest falla:"
+
+#. translators: 1: rows verified, 2: rows in the ledger.
+#: includes/class-edu-spoke-adapter.php:162
+#, php-format
+msgid ""
+"Pseudonymisierung ersetzt Namen, Klasse und Datum; Einwilligungskette gültig "
+"(%1$d von %2$d Einträgen geprüft)."
+msgstr ""
+"Il-psewdonimizzazzjoni tibdel l-ismijiet, il-klassi u d-data; katina valida "
+"(%1$d minn %2$d entrati vverifikati)."
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"
